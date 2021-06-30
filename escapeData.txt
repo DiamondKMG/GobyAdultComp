@@ -1,0 +1,476 @@
+id	trial	island	attack_direction	attack_angle	species	climbing_style	regime	order	location	year	weight	standard_length	max_height	max_width	ped_height	ped_width	fineness	response	latency	S1 Duration	Escape_Angle_S1	escape_angle_31	max_vel	max_accel	Age
+ag_2016_03_la	1	Hawaii	Lateral	99.4672	Awaous_stamineus	powerburst	free		hakalau	2016	2.15	58.409	9.963	9.486	6.252	2.587	7.214694369	1		21	54.822	45.7903	109.2790768	1564.817854	adult
+ag_2016_04_cr	2	Hawaii	Cranial	3.9397	Awaous_stamineus	powerburst	free		hakalau	2016	2.61	63.987	10.876	11.386	6.652	2.839	6.609047444	1		30	64.6415	64.6415	69.39057239	787.4814483	adult
+ag_2016_05_cr	3	Hawaii	Cranial	2.5117	Awaous_stamineus	powerburst	free		hakalau	2016	0.9	51.777	6.823	7.168	4.807	2.137	8.56060384	1		23	88.1297	90.7729	62.02042891	453.8328629	adult
+ag_2016_09_cr	3	Hawaii	Cranial	4.9612	Awaous_stamineus	powerburst	free		hakalau	2016	8.68	104.955	18.01	15.017	11.946	2.461	3.552859522	1		27	70.6273	68.796	109.9308664	1396.7048	adult
+ag_2016_10_ca	1	Hawaii	Caudal	176.4698	Awaous_stamineus	powerburst	free		hakalau	2016	3.08	70.824	12.395	11.289	7.831	2.007	5.162323518	1		24	95.644	85.7827	131.4450065	2170.330132	adult
+ag_2016_11_cr	1	Hawaii	Cranial		Awaous_stamineus	powerburst	free		hakalau	2016	6.53	87.22	14.141	13.699	9.906	2.027	3.661480801	0							adult
+ag_2016_15_cr	3	Hawaii	Cranial	7.4694	Awaous_stamineus	powerburst	free		hakalau	2016	4.3	73.62	13.64	11.049	8.172	2.465	6.672507331	1		33	149.0629	146.9478	151.6966564	2089.108461	adult
+ag_2016_16_la	1	Hawaii	Lateral	96.0362	Awaous_stamineus	powerburst	free		hakalau	2016	2.41	63.902	10.68	9.867	6.771	1.729	8.521816479	1		25	72.338	73.9631	84.73700287	1202.062594	adult
+ag_2016_17_ca	2	Hawaii	Caudal	174.8987	Awaous_stamineus	powerburst	free		hakalau	2016	5.97	93.955	16.054	11.48	9.492	2.001	6.379593871	1		33	83.2461	82.6542	116.9450232	1302.681665	adult
+ag_2016_18_la	1	Hawaii	Lateral	96.9129	Awaous_stamineus	powerburst	free		hakalau	2016	1.36	50.277	8.245	7.672	4.869	1.115	12.42183141	1		21	69.0719	42.7793	144.5895497	2690.788871	adult
+ag_2016_19_la	1	Hawaii	Lateral	103.4972	Awaous_stamineus	powerburst	free		hakalau	2016	1.51	56.223	9.762	7.446	5.666	1.779	10.49149764	1		20	65.9906	46.1261	123.9732092	1666.156939	adult
+ag_2016_20_cr	3	Hawaii	Cranial	0.7757	Awaous_stamineus	powerburst	free		hakalau	2016	8.1	90.619	15.751	14.542	9.888	2.94	4.606945591	1		38	126.8116	119.6765	130.092261	1355.732702	adult
+ag_2016_21_la	3	Hawaii	Lateral		Awaous_stamineus	powerburst	free		hakalau	2016	1.09	45.008	7.12	5.357	4.516	1.614	10.19157303	0							adult
+as_2017_01_ca	1	Hawaii	Caudal	167.63	Awaous_stamineus	powerburst	free		hakalau	2017	1.955	52.2	9	9.3	5.3	2.2	5.8	1		14	40.6	20.18	87.01524081	1763.132546	adult
+as_2017_02_cr	1	Hawaii	Cranial	4.96	Awaous_stamineus	powerburst	free		hakalau	2017	4.145	61.3	9.4	11.6	6.7	3.7	6.521276596	1	79	17	66.2		92.28488909	1887.947588	adult
+as_2017_03_la	1	Hawaii	Lateral		Awaous_stamineus	powerburst	free		hakalau	2017	1.385	47	7.6	8	5.1	2.5	6.184210526	0							adult
+as_2017_04_ca	1	Hawaii	Caudal	158.41	Awaous_stamineus	powerburst	free		hakalau	2017	1.45	44.7	7.3	8.4	4.6	2.3	6.123287671	1	131	11	31.86	9.39	78.78628446	1055.778499	adult
+as_2017_05_ca	2	Hawaii	Caudal	164.57	Awaous_stamineus	powerburst	free		hakalau	2017	2.9	62	10.5	10.5	6.3	3.5	5.904761905	1	93	16	44.08	45.5	82.90696518	1615.522995	adult
+as_2017_06_ca	1	Hawaii	Caudal	167.94	Awaous_stamineus	powerburst	free		hakalau	2017	0.187	49.3	8.6	9.2	2.4	5.2	5.73255814	1	97	14	46.59		96.61916042	3790.56827	adult
+as_2017_07_la	1	Hawaii	Lateral		Awaous_stamineus	powerburst	free		hakalau	2017	5.285	71.3	12.7	12.9	2.6	7.6	5.614173228	0							adult
+ag_2016_01_la	1	Hawaii	Lateral	94.8413	Awaous_stamineus	powerburst	constant		waikea	2016	3.94	59.094	11.01	12.605	6	2.253	5.367302452	1		23	41.5834	33.7357	101.0668547	1837.089254	adult
+ag_2016_02_la	2	Hawaii	Lateral		Awaous_stamineus	powerburst	constant		waikea	2016	2.55	71.88	12.63	10.273	7.504	1.565	5.691211401	0							adult
+ag_2016_06_la	3	Hawaii	Lateral	72.7679	Awaous_stamineus	powerburst	constant		waikea	2016	8.39	91.013	15.996	14.559	9.952	2.597	3.651475369	1		20	56.7616	53.5126	101.2488656	1059.659539	adult
+ag_2016_07_la	3	Hawaii	Lateral	88.3974	Awaous_stamineus	powerburst	constant		waikea	2016	6.87	102.418	18.209	12.348	11.497	2.095	3.207699489	1		23	42.5068	40.1057	66.45710165	1200.929865	adult
+ag_2016_08_cr	2	Hawaii	Cranial	4.236	Awaous_stamineus	powerburst	constant		waikea	2016	4.05	72.564	13.36	10.514	7.884	3.788	4.789446108	1		20	90.3177	83.3554	135.56946	2807.397305	adult
+ag_2016_12_la	3	Hawaii	Lateral	110.1492	Awaous_stamineus	powerburst	constant		waikea	2016	3.52	71.663	12.325	11.084	7.239	2.502	4.200973631	1		15	39.2672	24.1504	84.01642725	1458.736782	adult
+ag_2016_13_cr	3	Hawaii	Cranial	10.0188	Awaous_stamineus	powerburst	constant		waikea	2016	11.43	105.869	18.273	16.62	12.365	4.037	2.833524873	1		35	92.2277	85.1773	77.02792349	683.824589	adult
+ag_2016_14_cr	2	Hawaii	Cranial	0.1968	Awaous_stamineus	powerburst	constant		waikea	2016	3.58	68.002	11.617	9.904	6.75	2.001	7.83446673	1		30	66.5257	66.5257	73.46882708	396.4453395	adult
+as_2017_08_ca	2	Hawaii	Caudal		Awaous_stamineus	powerburst	constant		waikea	2017	7.42	79.3	14.5	14.7	8.6	4.4	5.468965517	0							adult
+as_2017_09_cr	1	Hawaii	Cranial	1.3	Awaous_stamineus	powerburst	constant		waikea	2017	3.08	61.2	10.9	9.7	6.5	2.6	5.614678899	1	78	45	109.21	88.51	51.32481687	133.7231141	adult
+as_2017_10_la	2	Hawaii	Lateral		Awaous_stamineus	powerburst	constant		waikea	2017	3.705	61.6	10	10.4	6.7	3.7	6.16	0							adult
+as_2017_11_ca	3	Hawaii	Caudal		Awaous_stamineus	powerburst	constant		waikea	2017	7.68	75.6	13	14.9	8.4	4	5.815384615	0							adult
+as_2017_12_ca	2	Hawaii	Caudal		Awaous_stamineus	powerburst	constant		waikea	2017	4.49	64.9	11.7	12	7.3	2.8	5.547008547	0							adult
+as_2017_13_la	1	Hawaii	Lateral		Awaous_stamineus	powerburst	constant		waikea	2017	6.13	69.9	12.2	12.1	7.1	3.2	5.729508197	0							adult
+as_2017_14_cr	2	Hawaii	Cranial		Awaous_stamineus	powerburst	constant		waikea	2017	3.2	58.1	9.7	10.4	6.3	2.9	5.989690722	0							adult
+as_2017_15_cr	3	Hawaii	Cranial	4.39	Awaous_stamineus	powerburst	constant		waikea	2017	11.68	87.9	16.2	16.8	9.9	4.8	5.425925926	1	91	31	89.05	89.03	95.36343509	806.4477444	adult
+as_2017_16_cr	2	Hawaii	Cranial		Awaous_stamineus	powerburst	constant		waikea	2017	5.415	70.9	12.7	14.2	8.3	3.4	5.582677165	0							adult
+as_2017_17_ca	2	Hawaii	Caudal	178.56	Awaous_stamineus	powerburst	constant		waikea	2017	6.85	75.3	13.7	14.2	8.6	3.3	5.496350365	1	107	25	24	23.6	61.56669203	624.3499417	adult
+as_2017_19_ca	1	Hawaii	Caudal		Awaous_stamineus	powerburst	constant		waikea	2017	3.025	55.5	9.6	9.2	6	2.6	5.78125	0							adult
+as_2017_20_ca	1	Hawaii	Caudal	164.57	Awaous_stamineus	powerburst	constant		waikea	2017	1.27	45	6.9	7	4.8	1.9	6.52173913	1	98	17	70.71	59.9	83.52483203	812.8540754	adult
+Aca_135_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		60.6	8.1	7.3	6.4	2.2	7.481481481	0							adult
+Aca_135_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		60.6	8.1	7.3	6.4	2.2	7.481481481	0							adult
+Aca_135_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		60.6	8.1	7.3	6.4	2.2	7.481481481	0							adult
+Aca_136_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		57.8	6.7	7	5.7	1.8	8.626865672	0							adult
+Aca_136_cr	1	Reunion	Cranial	3	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		57.8	6.7	7	5.7	1.8	8.626865672	1		24	68.4455		89.65917214	1091.246608	adult
+Aca_136_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		57.8	6.7	7	5.7	1.8	8.626865672	0							adult
+Aca_137_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		54.5	6.6	8	5.5	2.5	8.257575758	0							adult
+Aca_137_cr	1	Reunion	Cranial	8	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		54.5	6.6	8	5.5	2.5	8.257575758	1		33	115.4532		72.48387853	1088.880132	adult
+Aca_137_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		54.5	6.6	8	5.5	2.5	8.257575758	0							adult
+Aca_138_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		6.16	7.5	9.1	5.4	2.8	0.821333333	0							adult
+Aca_138_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		6.16	7.5	9.1	5.4	2.8	0.821333333	0							adult
+Aca_138_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		6.16	7.5	9.1	5.4	2.8	0.821333333	0							adult
+Aca_139_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		58	6.9	6.9	5.6	1.5	8.405797101	0							adult
+Aca_139_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		58	6.9	6.9	5.6	1.5	8.405797101	1							adult
+Aca_139_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		58	6.9	6.9	5.6	1.5	8.405797101	0							adult
+Aca_140_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		64.1	8.2	8.6	6.7	2.4	7.817073171	0							adult
+Aca_140_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		64.1	8.2	8.6	6.7	2.4	7.817073171	0							adult
+Aca_140_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		64.1	8.2	8.6	6.7	2.4	7.817073171	0							adult
+Aca_141_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		66.9	8.5	8.2	7.5	1.9	7.870588235	0							adult
+Aca_141_cr	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		66.9	8.5	8.2	7.5	1.9	7.870588235	0							adult
+Aca_141_la	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		66.9	8.5	8.2	7.5	1.9	7.870588235	0							adult
+Aca_142_ca	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		67.2	8.6	9.3	6.8	2.4	7.813953488	0							adult
+Aca_142_cr	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		67.2	8.6	9.3	6.8	2.4	7.813953488	0							adult
+Aca_142_la	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		67.2	8.6	9.3	6.8	2.4	7.813953488	0							adult
+Aca_143_ca	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		55.1	7.4	7.4	5	2	7.445945946	0							adult
+Aca_143_cr	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		55.1	7.4	7.4	5	2	7.445945946	0							adult
+Aca_143_la	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		55.1	7.4	7.4	5	2	7.445945946	0							adult
+Aca_144_ca	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		63.9	9	8.5	7.2	2.1	7.1	0							adult
+Aca_144_cr	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		63.9	9	8.5	7.2	2.1	7.1	0							adult
+Aca_144_la	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		63.9	9	8.5	7.2	2.1	7.1	0							adult
+Aca_145_ca	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		64.1	8.1	9.8	6.7	2.7	7.913580247	0							adult
+Aca_145_cr	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		64.1	8.1	9.8	6.7	2.7	7.913580247	0							adult
+Aca_145_la	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		64.1	8.1	9.8	6.7	2.7	7.913580247	0							adult
+Aca_146_ca	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		57.7	7.7	9.4	6.3	2.4	7.493506494	0							adult
+Aca_146_cr	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		57.7	7.7	9.4	6.3	2.4	7.493506494	0							adult
+Aca_146_la	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		57.7	7.7	9.4	6.3	2.4	7.493506494	0							adult
+Aca_147_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		56.1	7.3	8.1	5.9	2.1	7.684931507	0							adult
+Aca_147_cr	1	Reunion	Cranial	2	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		56.1	7.3	8.1	5.9	2.1	7.684931507	1		24	82.642		66.21649288	1058.743174	adult
+Aca_147_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		56.1	7.3	8.1	5.9	2.1	7.684931507	0							adult
+Aca_148_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		45.9	6.2	7.3	5.1	1.9	7.403225806	0							adult
+Aca_148_cr	1	Reunion	Cranial	3	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		45.9	6.2	7.3	5.1	1.9	7.403225806	1		15	95.4663		113.1977643	2237.528828	adult
+Aca_148_la	1	Reunion	Lateral	105	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		45.9	6.2	7.3	5.1	1.9	7.403225806	1		10	46.7985		83.04900144	2232.755235	adult
+Aca_149_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		38	5.1	5.7	4.1	1.8	7.450980392	0							adult
+Aca_149_cr	1	Reunion	Cranial	2	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		38	5.1	5.7	4.1	1.8	7.450980392	1		12	79.9014		130.1673194	3761.164543	adult
+Aca_149_la	1	Reunion	Lateral	77	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		38	5.1	5.7	4.1	1.8	7.450980392	1		12	59.1536		138.93769	4047.630669	adult
+Aca_161_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		44.2	5.8	5.3	4.2	1.8	7.620689655	0							adult
+Aca_161_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		44.2	5.8	5.3	4.2	1.8	7.620689655	0							adult
+Aca_161_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		44.2	5.8	5.3	4.2	1.8	7.620689655	0							adult
+Aca_162_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		37.5	4.8	4.5	3.7	1.1	7.8125	0							adult
+Aca_162_cr	1	Reunion	Cranial	9	Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		37.5	4.8	4.5	3.7	1.1	7.8125	1		19	105.0746		91.28463813	1391.478156	adult
+Aca_162_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		37.5	4.8	4.5	3.7	1.1	7.8125	0							adult
+Aca_163_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		37.7	4.7	4.8	3.2	1.4	8.021276596	0							adult
+Aca_163_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		37.7	4.7	4.8	3.2	1.4	8.021276596	0							adult
+Aca_163_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	2	reunion	2016		37.7	4.7	4.8	3.2	1.4	8.021276596	0							adult
+Ca__001_la	1	Reunion	Lateral	105	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21	2.2	2.8	1.6	0.7	9.545454545	1		12	61.4503		92.95814472	2935.548817	juvenile
+Ca__002_cr	1	Reunion	Cranial	16	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.8	2.4	2.4	1.6	0.6	8.666666667	1		13	69.6788		103.4011395	3492.235917	juvenile
+Ca__003_la	1	Reunion	Lateral	82	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.6	2.2	2.6	1.6	0.7	8.909090909	1		10	46.2331		94.47704108	1900.544249	juvenile
+Ca__004_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.5	2.5	2.8	1.8	0.8	8.6	0							juvenile
+Ca__005_ca	1	Reunion	Caudal	177	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.6	2.2	2.4	1.5	0.6	9.363636364	1		12	37.0805		100.5645688	4057.165671	juvenile
+Ca__006_la	1	Reunion	Lateral	99	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20	2	2.3	1.5	0.6	10	1		12	85.7531		39.37574653	-21.37507031	juvenile
+Ca__007_cr	1	Reunion	Cranial	5	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.1	2.2	2.8	1.7	0.6	9.590909091	1		13	68.5751		119.0876472	4509.809758	juvenile
+Ca__008_la	1	Reunion	Lateral	75	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		22.2	2.5	2.4	1.9	0.7	8.88	1		12	23.7383		111.5730494	3877.219456	juvenile
+Ca__009_cr	1	Reunion	Cranial	2	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		26.7	3.3	3.5	2.4	0.9	8.090909091	1		37	133.0726		59.97322287	1075.423523	juvenile
+Ca__010_cr	1	Reunion	Cranial	1	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21	2.6	2.6	1.7	0.6	8.076923077	1		14	80.8613		79.13564221	1570.236157	juvenile
+Ca__011_cr	1	Reunion	Cranial	1	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.4	2.4	3.1	1.7	0.8	8.5	1		12	83.2901		109.5583708	3322.911464	juvenile
+Ca__012_la	1	Reunion	Lateral	104	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.9	2.3	2.7	1.6	0.7	8.652173913	1		12	86.0912		115.0050996	3708.041447	juvenile
+Ca__013_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20	2.3	2.2	1.6	0.5	8.695652174	0							juvenile
+Ca__014_la	1	Reunion	Cranial	55	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.3	2.3	2.3	1.4	0.6	8.391304348	1		20	81.6517		59.92457398	2878.720048	juvenile
+Ca__015_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.8	1.8	2.4	1.5	0.6	11	0		0					juvenile
+Ca__016_ca	1	Reunion	Caudal	177	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.5	2	2	1.6	0.6	9.75	1			73.3882		57.20725035	1478.749833	juvenile
+Ca__017_ca	1	Reunion	Caudal	165	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.4	2.3	2.7	1.5	0.6	8.869565217	1		12	50.37		122.6766265	3329.439197	juvenile
+Ca__018_cr	1	Reunion	Cranial	12	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.5	2.7	2.6	1.8	0.6	7.962962963	1		13	69.2668		73.78596184	2350.249724	juvenile
+Ca__019_cr	1	Reunion	Cranial	4	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.2	1.9	2.4	1.4	0.6	10.10526316	1		12	55.3775		89.29558109	2591.979663	juvenile
+Ca__020_la	1	Reunion	Lateral	109	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.4	2.6	2.8	1.6	0.9	8.230769231	1		10	64.0841		117.7409592	4277.656532	juvenile
+Ca__021_la	1	Reunion	Lateral	103	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		1.8	1.8	2.1	1.5	0.8	1	1		14	57.0531		67.79605458	539.1411313	juvenile
+Ca__022_cr	1	Reunion	Cranial	18	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.6	2.3	2.2	1.4	0.6	8.52173913	1		12	59.6877		73.73075516	3026.342359	juvenile
+Ca__023_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		18.9	2.2	2.5	1.5	0.6	8.590909091	1							juvenile
+Ca__024_la	1	Reunion	Cranial	49	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		22.8	2.7	2.7	1.8	0.6	8.444444444	1		14	78.1903		68.32792182	1117.245961	juvenile
+Ca__025_la	1	Reunion	Lateral	75	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21	2.4	2.4	1.6	0.7	8.75	1		10	58.9237		98.72055929	5084.515278	juvenile
+Ca__026_cr	1	Reunion	Cranial	3	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.6	2.5	2.5	1.7	0.8	8.64	1		15	63.4492		76.94237822	2190.083789	juvenile
+Ca__027_la	1	Reunion	Lateral	105	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.5	2.3	2.9	1.6	0.7	8.913043478	1		13	58.6713		90.35806104	5086.592532	juvenile
+Ca__028_cr	1	Reunion	Cranial	2	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.9	2.4	2.2	1.4	0.7	8.291666667	1		12	46.3573		94.02891935	3259.062833	juvenile
+Ca__029_ca	1	Reunion	Caudal	170	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.9	2.5	2.2	1.6	0.6	8.36	1		12	41.5014		106.7204688	3983.804894	juvenile
+Ca__030_la	1	Reunion	Lateral	90	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19	1.9	2.3	1.3	0.6	10	1		10	34.6669		85.92666728	2792.69524	juvenile
+Ca__031_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.1	2.6		1.7		8.115384615	0							juvenile
+Ca__032_la	1	Reunion	Cranial	37	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.7	2.4	2.3	1.8	0.8	9.041666667	1		17	129.9586		116.5317425	3152.819971	juvenile
+Ca__033_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.5	2.4	2.6	1.7	0.9	8.541666667	0							juvenile
+Ca__035_ca	1	Reunion	Caudal	172	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.1	2.5	2.7	1.7	0.8	8.44	1		12	52.6313		65.52522603	2187.39875	juvenile
+Ca__036_cr	1	Reunion	Cranial	1	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		22.9	2.6	3	2	0.9	8.807692308	1		15	68.6029				juvenile
+Ca__037_la	1	Reunion	Lateral		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.8	2.3	2.7	1.6	0.9	9.043478261	0							juvenile
+Ca__038_cr	1	Reunion	Cranial	2	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.1	2.5	2.7	1.4	0.6	8.04	1		13	64.6324		123.9308872	4238.674385	juvenile
+Ca__039_la	1	Reunion	Lateral	77	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		18.7	2.1	2.5	1.5	0.7	8.904761905	1		12	85.8651				juvenile
+Ca__040_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.9	2.3	2.8	1.5	0.7	8.652173913	0							juvenile
+Ca__041_cr	1	Reunion	Cranial	51	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		26.7	3	3.5	2.4	1	8.9	1		15	98.6877		112.9142408	3426.766083	juvenile
+Ca__042_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21	2.3	2.6	1.8	0.6	9.130434783	0							juvenile
+Ca__043_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.9	2.4	2.5	1.7	0.8	8.291666667	0							juvenile
+Ca__044_la	1	Reunion	Lateral	102	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.7	2	2.7	1.4	0.8	9.85	1			5.2239		53.66875789	-386.6019465	juvenile
+Ca__045_la	1	Reunion	Lateral	79	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		23.7	2.6	3.2	2.1	0.8	9.115384615	1		10	35.7304		69.52301687	1129.172551	juvenile
+Ca__046_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		23.1	2.7	2.8	1.8	0.6	8.555555556	0							juvenile
+Ca__047_la	1	Reunion	Lateral	109	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.7	2.4	2.8	1.8	0.8	8.625	1		11	52.8518		62.46833841	1301.386933	juvenile
+Ca__048_cr	1	Reunion	Cranial	3	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		22.9	2.5	2.6	1.7	0.7	9.16	1		15	69.2932		106.4074635	3205.929131	juvenile
+Ca__049_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20	2.5	2.6	1.6	0.6	8	0							juvenile
+Ca__050_cr	1	Reunion	Cranial		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.1	2.2	2.6	1.7	0.9	9.136363636	0							juvenile
+Ca__051_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		25.1	3	3.5	2.1	1.1	8.366666667	0							juvenile
+Ca__052_ca	1	Reunion	Caudal	168	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		20.7	2.4	3	1.6	0.8	8.625	1		12	53.3578		105.9348641	3309.131802	juvenile
+Ca__053_ca	1	Reunion	Caudal	172	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.6	2.3	2.9	1.6	0.9	8.52173913	1		11	40.9376		117.8495285	3572.152012	juvenile
+Ca__054_ca	1	Reunion	Caudal	130	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.3	2.5	2.5	1.7	0.7	8.52	1		11	42.6472		111.6518627	4392.11575	juvenile
+Ca__055_ca	1	Reunion	Caudal	177	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		21.9	2.7	2.8	1.8	0.6	8.111111111	1		10	45.7629		50.90888114	826.9379717	juvenile
+Ca__056_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.9	2.4	2.6	1.5	0.8	8.291666667	0							juvenile
+Ca__057_ca	1	Reunion	Caudal	172	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		22.5	2.6	2.7	1.9	0.8	8.653846154	1		14	66.4742		76.16348851	1652.463974	juvenile
+Ca__058_ca	1	Reunion	Caudal	168	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		22.7	2.7	3.2	2.1	0.6	8.407407407	1		12	40.4967		43.00725314	869.3398661	juvenile
+Ca__059_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		18.2	2.2	2.7	1.4	0.7	8.272727273	0							juvenile
+Ca__060_ca	1	Reunion	Caudal	156	Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.8	2.2	2.6	1.5	0.7	9	1		13	40.2202		109.7956436	4488.03611	juvenile
+Ca__061_ca	1	Reunion	Caudal		Cotylopus acutipinnis	powerburst	diminished	1	reunion	2016		19.3	2.3	2.6	1.6	0.6	8.391304348	0							juvenile
+lc_2017_01_la	2	Hawaii	Lateral		Lentipes_concolor	powerburst	free		nanue2	2017	1.73	55.6	7.5	7.6	5.2	2.8	7.413333333	0							adult
+lc_2017_02_la	3	Hawaii	Lateral	109.66	Lentipes_concolor	powerburst	free		nanue2	2017	1.48	50.1	5.9	6.9	4.8	2.9	8.491525424	1	81	17	30.88	3.61	115.9303922	2575.657217	adult
+lc_2017_03_ca	1	Hawaii	Caudal		Lentipes_concolor	powerburst	free		nanue2	2017	1.52	49.3	6.6	7.7	4.5	2.6	7.46969697	0							adult
+lc_2017_04_ca	3	Hawaii	Caudal	157.26	Lentipes_concolor	powerburst	free		nanue2	2017	1.76	54.7	6.8	8.7	4.6	2.8	8.044117647	1	92	18	46.57	26.52	103.6011535	1913.43864	adult
+lc_2017_05_la	1	Hawaii	Lateral		Lentipes_concolor	powerburst	free		nanue2	2017	1.675	52.8	6.5	7.8	4.1	2.2	8.123076923	0							adult
+lc_2017_06_cr	3	Hawaii	Cranial		Lentipes_concolor	powerburst	free		nanue2	2017	1.51	52	6.7	7.2	4.3	1.9	7.910447761	0							adult
+lc_2017_07_la	1	Hawaii	Lateral	74.43	Lentipes_concolor	powerburst	free		nanue2	2017	1.82	52.2	7.2	7.4	4.8	2.4	7.25	1	64	19	60.4	47.17	124.5579714	2610.600483	adult
+lc_2017_08_cr	2	Hawaii	Cranial	6.07	Lentipes_concolor	powerburst	free		nanue2	2017	2.35	57.9	8.6	7.8	5.3	3	6.73255814	1	148	33	129.05	125.28			adult
+lc_2017_09_cr	2	Hawaii	Cranial	3.38	Lentipes_concolor	powerburst	free		nanue2	2017	2.3	57.3	8	9.1	4.9	2.7	7.1625	1	73	28	98.06	97.58	73.8766701	775.0989384	adult
+lc_2017_10_la	1	Hawaii	Lateral	78.37	Lentipes_concolor	powerburst	free		nanue2	2017	1.765	50.2	6.7	7.6	5.2	2.6	7.492537313	1	94	20	78.95	57.38	126.8708227	2392.143874	adult
+lc_2017_11_cr	2	Hawaii	Cranial	0.54	Lentipes_concolor	powerburst	free		nanue2	2017	1.49	5.3	6.4	7.7	4.5	2.5	0.828125	1	69	28	104.18	104.17	67.98027301	530.8883564	adult
+lc_2017_12_cr	2	Hawaii	Cranial		Lentipes_concolor	powerburst	free		nanue2	2017	2.545	66	7.5	9.3	5.7	2.7	8.8	0							adult
+lc_2017_13_cr	2	Hawaii	Cranial	6.6	Lentipes_concolor	powerburst	free		nanue2	2017	2.009	56.9	6.6	7.9	4.8	2.6	8.621212121	1	88	28	53.8	55.98	38.17534475	-2.57992491	adult
+lc_2017_14_la	2	Hawaii	Lateral		Lentipes_concolor	powerburst	free		nanue2	2017	3.26	69.9	9.1	8.8	6.4	3.5	7.681318681	0							adult
+lc_2017_15_cr	1	Hawaii	Cranial	1.07	Lentipes_concolor	powerburst	free		nanue2	2017	1.685	52.8	6.1	8	4.4	2.1	8.655737705	1	66	30	118	115.77	79.40112858	1045.171763	adult
+lc_2017_16_la	2	Hawaii	Lateral		Lentipes_concolor	powerburst	free		nanue2	2017	2.16	55.8	6.7	8.2	4.9	1.9	8.328358209	0							adult
+lc_2017_17_la	3	Hawaii	Lateral	93.59	Lentipes_concolor	powerburst	free		nanue2	2017	1.63	57.7	7.5	7.6	5.8	2.9	7.693333333	1	95	17	59.97	36.39	93.32014984	1399.179699	adult
+lc_2017_18_ca	2	Hawaii	Caudal		Lentipes_concolor	powerburst	free		nanue2	2017	2.15	58.7	7.5	7.8	5.1	1.4	7.826666667	0							adult
+lc_2017_19_ca	1	Hawaii	Caudal		Lentipes_concolor	powerburst	free		nanue2	2017	1.098	44.2	5.9	6.1	4.6	2.4	7.491525424	0							adult
+lc_2017_20_ca	1	Hawaii	Caudal	157.31	Lentipes_concolor	powerburst	free		nanue2	2017	1.765	57.3	6.6	7.2	4.6	1.8	8.681818182	1	88	19	50.81	35.79	62.74634512	355.4824392	adult
+lc_2017_21_ca	1	Hawaii	Caudal		Lentipes_concolor	powerburst	free		nanue2	2017	2.26	62.1	7.5	8.3	5.3	2	8.28	0							adult
+lc_2017_22_ca	2	Hawaii	Caudal	173.12	Lentipes_concolor	powerburst	free		nanue2	2017	1.035	47.4	5.9	6	4	2	8.033898305	1	97	20	70.05	29.05	72.13938343	424.9478783	adult
+lc_2017_23_cr	3	Hawaii	Cranial	0.01	Lentipes_concolor	powerburst	free		nanue2	2017	3.33	65.2	9.7	9	6.3	2.9	6.721649485	1	80	26	89.51	90.87	88.03618614	1076.020415	adult
+Asl_129_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		57.3	8.1	8.9	6.5	3.2	7.074074074	0							adult
+Asl_129_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		57.3	8.1	8.9	6.5	3.2	7.074074074	0							adult
+Asl_129_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		57.3	8.1	8.9	6.5	3.2	7.074074074	0							adult
+Asl_130_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		57.7	7.8	9.8	6.5	2.8	7.397435897	0							adult
+Asl_130_cr	1	Reunion	Cranial	25	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		57.7	7.8	9.8	6.5	2.8	7.397435897	1			100.6903		101.5980964	1839.070237	adult
+Asl_130_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		57.7	7.8	9.8	6.5	2.8	7.397435897	0		29					adult
+Asl_131_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.9	7.1	7.5	5.7	2.1	7.028169014	0							adult
+Asl_131_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.9	7.1	7.5	5.7	2.1	7.028169014	0							adult
+Asl_131_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.9	7.1	7.5	5.7	2.1	7.028169014	0							adult
+Asl_132_ca	1	Reunion	Caudal	179	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		51.6	6.4	7.6	5.8	1.9	8.0625	1			101.6458		85.31022275	1551.426883	adult
+Asl_132_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		51.6	6.4	7.6	5.8	1.9	8.0625	0		38					adult
+Asl_132_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		51.6	6.4	7.6	5.8	1.9	8.0625	0							adult
+Asl_133_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		54.1	7.6	8.3	6.1	2.3	7.118421053	0							adult
+Asl_133_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		54.1	7.6	8.3	6.1	2.3	7.118421053	0							adult
+Asl_133_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		54.1	7.6	8.3	6.1	2.3	7.118421053	0							adult
+Asl_134_ca	1	Reunion	Caudal	158	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.2	6.8	7.4	5	1.8	7.235294118	1			38.2879		42.00025222	604.1916263	adult
+Asl_134_cr	1	Reunion	Cranial	2	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.2	6.8	7.4	5	1.8	7.235294118	1		34	63.2142				adult
+Asl_134_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.2	6.8	7.4	5	1.8	7.235294118	0		20					adult
+Asl_150_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		42.9	6.3	6.5	5.1	1.6	6.80952381	0							adult
+Asl_150_cr	1	Reunion	Cranial	1	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		42.9	6.3	6.5	5.1	1.6	6.80952381	1			84.8623		144.6034561	2986.1713	adult
+Asl_150_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		42.9	6.3	6.5	5.1	1.6	6.80952381	0		21					adult
+Asl_151_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		40.1	5.5	6.1	4.4	1.6	7.290909091	0							adult
+Asl_151_cr	1	Reunion	Cranial	4	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		40.1	5.5	6.1	4.4	1.6	7.290909091	1			81.0661		101.0308662	2915.881859	adult
+Asl_151_la	1	Reunion	Lateral	74	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		40.1	5.5	6.1	4.4	1.6	7.290909091	1		19	38.9674		122.8302588	3587.853648	adult
+Asl_152_ca	1	Reunion	Caudal	162	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		34.2	4.1	4.6	3.3	1.4	8.341463415	1		14	89.3301				adult
+Asl_152_cr	1	Reunion	Cranial	1	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		34.2	4.1	4.6	3.3	1.4	8.341463415	1		25					adult
+Asl_152_la	1	Reunion	Caudal	162	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		34.2	4.1	4.6	3.3	1.4	8.341463415	1		18	75.1214		74.62961649	934.3464027	adult
+Asl_153_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		50.4	7.2	8.3	5.9	2.2	7	0		15					adult
+Asl_153_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		50.4	7.2	8.3	5.9	2.2	7	0							adult
+Asl_153_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		50.4	7.2	8.3	5.9	2.2	7	0							adult
+Asl_154_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		47.6	5.9	6.9	5.1	2.2	8.06779661	0							adult
+Asl_154_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		47.6	5.9	6.9	5.1	2.2	8.06779661	0							adult
+Asl_154_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		47.6	5.9	6.9	5.1	2.2	8.06779661	0							adult
+Asl_155_ca	1	Reunion	Caudal	158	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.3	7	7.5	5.6	2.4	7.042857143	1			64.1779		108.3149303	2300.681043	adult
+Asl_155_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.3	7	7.5	5.6	2.4	7.042857143	0		22					adult
+Asl_155_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		49.3	7	7.5	5.6	2.4	7.042857143	0							adult
+Asl_156_cr	1	Reunion	Cranial	3	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		48.4	7.3	6.3	5.2	1.5	6.630136986	1			71.0278		72.88809464	1699.607696	adult
+Asl_157_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		43.3	5.9	6.7	4.8	2	7.338983051	0		21					adult
+Asl_157_cr	1	Reunion	Cranial	16	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		43.3	5.9	6.7	4.8	2	7.338983051	1			70.2371		89.74506785	2286.851351	adult
+Asl_157_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		43.3	5.9	6.7	4.8	2	7.338983051	0		18					adult
+Asl_158_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		47.2	6.6	6.2	4.7	1.7	7.151515152	0							adult
+Asl_158_cr	1	Reunion	Cranial	3	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		47.2	6.6	6.2	4.7	1.7	7.151515152	1			61.8491		90.19327792	1993.338371	adult
+Asl_158_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		47.2	6.6	6.2	4.7	1.7	7.151515152	0		19					adult
+Asl_159_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		43.2	5.5	5.9	3.9	2.1	7.854545455	0							adult
+Asl_159_cr	1	Reunion	Cranial	1	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		43.2	5.5	5.9	3.9	2.1	7.854545455	1			72.1318		100.5443776	2715.024612	adult
+Asl_159_la	1	Reunion	Lateral	78	Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		43.2	5.5	5.9	3.9	2.1	7.854545455	1		22	60.5203		90.31393414	2532.719746	adult
+Asl_160_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		44.8	5	5.6	6.1	1.7	8.96	0		18					adult
+Asl_160_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		44.8	5	5.6	6.1	1.7	8.96	0							adult
+Asl_160_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	4	reunion	2016		44.8	5	5.6	6.1	1.7	8.96	0							adult
+Sl_100_cr	1	Reunion	Cranial	37	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016				3.6		0.8		1			61.6727		118.1173751	3440.125052	juvenile
+Sl_101_la	1	Reunion	Lateral	99	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		32	4.4	4.5	3.4	1.2	7.272727273	1		12	43.5267		103.2916943	3505.535606	juvenile
+Sl_102_la	1	Reunion	Lateral	117	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.3	3.7	4	3	1.2	8.189189189	1		11	56.8469		115.0680933	2993.334449	juvenile
+Sl_103_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31	4.4	4.4	3.4	1.3	7.045454545	1		11					juvenile
+Sl_104_cr	1	Reunion	Cranial	2	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.6	3.3	3.9	2.6	1.4	8.060606061	1			117.5653		118.7796236	3141.562915	juvenile
+Sl_105_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		32.4	4.6	4.8	3.4	1.3	7.043478261	0		19					juvenile
+Sl_106_cr	1	Reunion	Cranial	1	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		34.9	4.9	4.6	3.5	1.4	7.12244898	1			75.0993		68.93012609	3245.461543	juvenile
+Sl_107_cr	1	Reunion	Cranial	9	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		25.9	3.3	3.7	2.7	1	7.848484848	1		18	68.889		73.89326755	1741.959742	juvenile
+Sl_108_ca	1	Reunion	Caudal	173	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31.1	4.1	4.4	3.2	1.5	7.585365854	1		14	54.6557		40.83738665	1143.140054	juvenile
+Sl_109_ca	1	Reunion	Caudal	175	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.5	3.7	4.2	2.8	1.1	7.972972973	1		16	56.8772		76.74534528	3573.768343	juvenile
+Sl_110_la	1	Reunion	Lateral	101	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27	3.6	3.6	2.6	1.1	7.5	1		16	44.8942		77.2808647	2657.315071	juvenile
+Sl_111_cr	1	Reunion	Cranial	1	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31.7	4.3	4.4	3.2	1.4	7.372093023	1		12	74.3903				juvenile
+Sl_112_cr	1	Reunion	Cranial	17	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		24.9	3.3	3.5	2.3	1.1	7.545454545	1		17	73.3979		40.71019843	1956.875784	juvenile
+Sl_113_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31.4	4.2	4.2	3.2	1.2	7.476190476	0		15					juvenile
+Sl_114_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.8	3.7	3.9	2.6	1.2	7.513513514	0							juvenile
+Sl_115_ca	1	Reunion	Caudal	174	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.4	3.2	3.6	2.5	1	8.25	1			120.8621		27.7670372	339.207867	juvenile
+Sl_116_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.8	3.4	3.9	2.8	1.2	8.470588235	0		78					juvenile
+Sl_117_ca	1	Reunion	Caudal	162	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.2	3.5	3.7	2.5	1.4	7.771428571	1			48.7938		82.87542263	1840.236027	juvenile
+Sl_118_la	1	Reunion	Lateral	61	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.6	3.5	3.7	2.6	1.1	7.6	1		12	85.9826		91.00754324	1956.755868	juvenile
+Sl_119_cr	1	Reunion	Cranial	3	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.3	3.3	3.5	2.5	1.2	8.272727273	1		16	104.4041		117.8971913	2971.412138	juvenile
+Sl_120_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31	4.4	4.1	3.1	1.2	7.045454545	0		20					juvenile
+Sl_121_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.7	3.5	3.5	2.5	1.2	7.628571429	0							juvenile
+Sl_122_ca	1	Reunion	Caudal	176	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		25.3	3.3	3.8	2.4	1.2	7.666666667	1			92.1225		49.79726957	1310.430748	juvenile
+Sl_123_ca	1	Reunion	Caudal	167	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.9	3.4	3.7	2.5	0.9	8.205882353	1		18	49.112		45.69177002	1334.000481	juvenile
+Sl_124_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.2	3.7	4.1	2.8	1.2	8.162162162	0		22					juvenile
+Sl_125_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.8	3.5	3.4	2.5	0.9	7.942857143	0							juvenile
+Sl_126_ca	1	Reunion	Caudal		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.4	4.2	4.4	3.1	1.7	7	0							juvenile
+Sl_127_ca	1	Reunion	Caudal	177	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.3	3.8	4.2	2.6	0.9	7.447368421	1			59.5048		54.37711898	1858.293195	juvenile
+Sl_128_ca	1	Reunion	Caudal	174	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.6	3.3	3.4	2.6	1.1	8.060606061	1		15	49.9471		120.935499	5115.923763	juvenile
+Sl_62_la	1	Reunion	Lateral	92	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.8	4	4.5	2.9	1.4	7.45	1			66.0112				juvenile
+Sl_63_la	1	Reunion	Lateral	74	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		34.1	4.5	4.6	3.7	1.2	7.577777778	1		13	58.6479		135.3016478	4971.061578	juvenile
+Sl_64_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		24.6	3.6	4.2	2.7	1.5	6.833333333	0		13					juvenile
+Sl_65_la	1	Reunion	Caudal	176	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.7	4	4.1	2.9	0.9	7.175	1			52.3328		107.1818375	2535.243151	juvenile
+Sl_66_la	1	Reunion	Lateral	73	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.3	3.7	4	2.9	0.9	7.648648649	1		11	77.7945		68.06127669	3085.159	juvenile
+Sl_67_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31.8	4.6	4.7	3.4	1.3	6.913043478	0		17					juvenile
+Sl_68_la	1	Reunion	Lateral	75	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		31.1	4.3	4.3	3.1	1.2	7.23255814	1			87.5992		117.8186477	3366.178908	juvenile
+Sl_69_ca	1	Reunion	Caudal	160	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30	4.2	4.2	3	1.4	7.142857143	1		16	56.0026		120.5175324	3343.968551	juvenile
+Sl_70_cr	1	Reunion	Cranial	3	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.3	4.6	4.2	3.2	1.2	6.586956522	1		12	70.5943		41.50036657	1585.651701	juvenile
+Sl_71_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.2	3.8	3.4	2.9	1	7.684210526	0		20					juvenile
+Sl_72_la	1	Reunion	Lateral	71	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		32	4.2	5	3.5	1.2	7.619047619	1			60.1202		72.56923707	766.1079269	juvenile
+Sl_73_ca	1	Reunion	Caudal	169	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.9	3.6	3.7	2.8	1.1	8.027777778	1		15	51.638		71.80298841	1037.602576	juvenile
+Sl_74_ca	1	Reunion	Caudal	169	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.3	3.5	3.9	2.5	1.1	7.8	1		14	56.5036		65.447971	1420.417009	juvenile
+Sl_75_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.9	4	4.2	3	1.1	7.225	0							juvenile
+Sl_76_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.8	3.4	3.7	2.8	1	7.882352941	0							juvenile
+Sl_77_cr	1	Reunion	Cranial	2	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.4	3.7	3.8	2.8	1	7.405405405	1			69.2466		94.0987848	2533.609244	juvenile
+Sl_78_cr	1	Reunion	Cranial	5	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		36.7	5.2	5.3	4.1	1.6	7.057692308	1		15	79.9261		67.36673993	2733.71847	juvenile
+Sl_79_cr	1	Reunion	Cranial	19	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26.9	3.5	3.7	2.7	1.3	7.685714286	1		20	122.8067		90.78372097	2564.290646	juvenile
+Sl_80_ca	1	Reunion	Caudal	169	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.6	3.5	3.7	2.8	1.3	7.885714286	1		22	58.3181		75.30818358	2336.875237	juvenile
+Sl_81_ca	1	Reunion	Caudal	172	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		25	3.6	3.8	2.8	1	6.944444444	1		14	72.8592		74.81542558	1838.742525	juvenile
+Sl_82_cr	1	Reunion	Cranial	10	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.4	3.9	3.8	2.8	1.1	7.025641026	1		13	58.5607		83.62550304	1919.121051	juvenile
+Sl_83_cr	1	Reunion	Cranial	1	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.6	3.7	4.3	2.9	1.1	7.72972973	1		13	144.1201		71.75133091	2331.238848	juvenile
+Sl_84_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.9	4	4.2	2.7	1.2	7.225	0		23					juvenile
+Sl_85_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.8	4	4.3	2.8	1.4	7.2	0							juvenile
+Sl_86_cr	1	Reunion	Cranial		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		28.6	4	3.7	2.7	1.3	7.15	1							juvenile
+Sl_87_ca	1	Reunion	Caudal	165	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.8	3.7	3.7	2.6	1.4	7.513513514	1			36.4859		135.111933	4414.922216	juvenile
+Sl_88_la	1	Reunion	Lateral	62	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.2	4	3.8	2.9	0.9	7.55	1		16	107.6295		103.6481889	2544.620122	juvenile
+Sl_89_ca	1	Reunion	Caudal	162	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		26	3.5	3.7	2.6	1.3	7.428571429	1		23	45.3702		64.31901685	2349.769355	juvenile
+Sl_90_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.5	4.2	4.4	3	1.4	7.261904762	0		13					juvenile
+Sl_91_la	1	Reunion	Lateral	94	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.9	4.2	4.3	3.2	1.3	7.357142857	1			64.5193		133.738228	5044.502828	juvenile
+Sl_92_la	1	Reunion	Lateral		Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.4	4.2	4.2	3	1.3	7.238095238	0		13					juvenile
+Sl_93_cr	1	Reunion	Cranial	5	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		30.1	4.3	4.1	3	1.1	7	1			61.1846		34.90576074	699.1738474	juvenile
+Sl_94_la	1	Reunion	Cranial	52	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.7	4	4.1	3.1	1.4	7.425	1		17	76.5165		62.00111576	2302.021631	juvenile
+Sl_95_cr	1	Reunion	Cranial	23	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		27.8	3.7	3.8	2.7	1.3	7.513513514	1		19	95.6622		76.30886248	1796.320016	juvenile
+Sl_96_la	1	Reunion	Cranial	55	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		24.9	3.1	3.4	2.4	1.3	8.032258065	1		23	67.6318		113.3569094	3601.387916	juvenile
+Sl_97_la	1	Reunion	Lateral	97	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.3	4	4.2	2.9	1.3	7.325	1		11	33.3499		74.30630695	2182.547317	juvenile
+Sl_98_cr	1	Reunion	Cranial	9	Sicyopterus lagocephalus	inching	diminished	3	reunion	2016		29.5	3.8	4	3	1.2	7.763157895	1		16	122.3681		97.29928042	2750.077703	juvenile
+cb_00_01	1	Hawaii	Caudal	162	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.248107364	1		20	72.4601	36.6806	73.32326668	1406.110937	juvenile
+cb_00_02	1	Hawaii	Caudal	153	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							9.965350877	1		10	53.7645	36.1988	104.1913019	2975.829826	juvenile
+cb_00_03	1	Hawaii	Caudal	179	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.431435964	1		15	58.2485	58.2485	124.3844412	2823.065462	juvenile
+cb_00_04	1	Hawaii	Caudal	157	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.715123859	1		13	50.3754	2.2872	79.3777106	1830.611817	juvenile
+cb_00_05	1	Hawaii	Caudal	163	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.140080429	1		14	41.0421	14.7941	110.4778711	3858.5779	juvenile
+cb_00_06	1	Hawaii	Caudal	170	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.259642147	1		17	77.2181	33.1463	110.4017192	2864.713959	juvenile
+cb_00_07	1	Hawaii	Caudal	176	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.955004891	1							juvenile
+cb_00_08	1	Hawaii	Caudal	178	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.963320463	1		13	33.1859	5.8997	111.304121	3156.656139	juvenile
+cb_00_09	1	Hawaii	Caudal	162	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							9.642616034	1		14	80.6485	89.1631	105.3317462	3106.971796	juvenile
+cb_00_10	1	Hawaii	Caudal	156	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.229508197	1		14	43.3176	22.0176	70.72694952	874.6249483	juvenile
+cb_00_11	1	Hawaii	Caudal	169	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.523059185	1		17	53.1332	13.0861	95.17738947	2169.305897	juvenile
+cb_00_12	1	Hawaii	Caudal	162	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.823598589	0				63.9922			juvenile
+cb_00_13	1	Hawaii	Caudal	168	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.226161369	1		17	51.3865	10.4553	96.21102567	1744.039731	juvenile
+cb_00_14	1	Hawaii	Caudal	168	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.813541667	1		22	97.953	31.4522	65.93479928	865.8888129	juvenile
+cb_00_15	1	Hawaii	Caudal	155	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.247037037	1		14	55.4439	46.8871	96.53520207	2533.798822	juvenile
+cb_00_16	1	Hawaii	Caudal	177	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.06852459	1		17	72.1201	3.7955	109.2577882	2627.922186	juvenile
+cb_00_17	1	Hawaii	Caudal	178	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.05316847	1		16	84.4283	26.9497	88.76184828	2019.958579	juvenile
+cb_00_18	1	Hawaii	Caudal	179	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.105025773	1		15	53.1871	36.4911	115.8266316	3227.178175	juvenile
+cb_00_19	1	Hawaii	Caudal	180	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.322528363	1		12	48.0479	75.4204	77.05970603	2369.611489	juvenile
+cb_00_20	1	Hawaii	Caudal	156	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.900143164	1				22.4138			juvenile
+cf_00_01	1	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.941767068	1		16		0.3671	85.40573733	1300.424857	juvenile
+cf_00_02	1	Hawaii	Cranial	24	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.296409214	1		17	114.7588	61.8922	119.8120381	2725.483575	juvenile
+cf_00_03	1	Hawaii	Cranial	41	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.225255032	1		19	126.6537	66.7933	100.8081141	2064.355668	juvenile
+cf_00_04	1	Hawaii	Cranial	13	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.34040532	1		13	82.0495	50.9334	102.19371	1836.39773	juvenile
+cf_00_05	1	Hawaii	Cranial	6	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.350731707	0				1.1082			juvenile
+cf_00_06	1	Hawaii	Cranial	22	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							6.890504705	1		22	83.0574	65.0666	60.75511513	876.4960931	juvenile
+cf_00_07	1	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.493917892	1		17			122.8389778	3372.610507	juvenile
+cf_00_08	1	Hawaii	Cranial	37	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.651054506	1		15	71.8327	110.0557	118.0261188	4290.94243	juvenile
+cf_00_09	1	Hawaii	Cranial	25	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.074993182	1		15	99.5491	104.0335	113.3303819	2701.374944	juvenile
+cf_00_10	1	Hawaii	Cranial	18	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.836378291	1		14	63.334	29.1497	81.46176406	1893.655712	juvenile
+cf_00_11	1	Hawaii	Cranial	4	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.128476495	1		22	118.0021	76.2267	109.6831776	3104.96312	juvenile
+cf_00_12	1	Hawaii	Cranial	15	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.605544747	1		19	83.5644	41.6601			juvenile
+cf_00_13	1	Hawaii	Cranial	8	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.832505879	1		20	83.1354	41.4223	56.05866272	716.8945396	juvenile
+cf_00_14	1	Hawaii	Cranial	46	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.38089421	1				27.2978			juvenile
+cf_00_15	1	Hawaii	Cranial	53	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.584412153	1		25	50.479	10.0422	88.34047455	2552.867173	juvenile
+cf_00_16	1	Hawaii	Cranial	35	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.361725067	1		27					juvenile
+cf_00_17	1	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.994442901	0				50.7091			juvenile
+cf_00_18	1	Hawaii	Cranial	13	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.675595238	1		27	124.1676	119.0439	83.49411689	1484.034933	juvenile
+cf_00_20	1	Hawaii	Cranial	7	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.016023739	1		36	22.8846	16.3107	46.08376681	1647.122745	juvenile
+cs_00_01	1	Hawaii	Lateral	72	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.932436975	1		11	30.955	6.2102	55.58538784	931.8112072	juvenile
+cs_00_02	1	Hawaii	Lateral	92	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							9.663424125	1		16	65.4898	23.495	113.2529708	4023.016416	juvenile
+cs_00_03	1	Hawaii	Lateral	100	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.143973214	1		12					juvenile
+cs_00_04	1	Hawaii	Lateral	114	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							9.119210632	1		14	63.2989				juvenile
+cs_00_05	1	Hawaii	Lateral	116	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.814417635	1		14	70.9359	35.4399	113.2202238	3687.308298	juvenile
+cs_00_06	1	Hawaii	Lateral	100	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.805911681	0							juvenile
+cs_00_07b	1	Hawaii	Lateral	90	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.083497884	1		10	35.9932		91.30530004	2476.733041	juvenile
+cs_00_08	1	Hawaii	Lateral	66	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.363268608	1		24	156.8575	109.4675	117.3089502	2671.774526	juvenile
+cs_00_09	1	Hawaii	Caudal	147	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.474720467	1		16	57.3189	58.0067	78.00918246	1814.171401	juvenile
+cs_00_10	1	Hawaii	Caudal	174	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.294912331	1		11					juvenile
+cs_00_12	1	Hawaii	Lateral	71	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.341763943	0							juvenile
+cs_00_13	1	Hawaii	Caudal	151	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.019181946	1		22		39.6892	108.7435097	2179.17773	juvenile
+cs_00_14	1	Hawaii	Lateral	93	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.896877956	1							juvenile
+cs_00_15	1	Hawaii	Lateral	80	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.672708706	0							juvenile
+cs_00_16	1	Hawaii	Caudal	158	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.206529625	1		24	26.4705	10.004			juvenile
+cs_00_17	1	Hawaii	Lateral	110	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.828687573	1		13	59.7762	77.9107	115.3889931	4292.508533	juvenile
+cs_00_18	1	Hawaii	Lateral	97	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.203583873	1		13	37.7464	36.0538	77.9287957	2585.923404	juvenile
+cs_00_19	1	Hawaii	Caudal	133	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.597222222	1		12			95.24201156	2061.19813	juvenile
+cs_00_20	1	Hawaii	Lateral	114	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.356032778	1		16	56.9165	24.682	54.77545054	602.3726698	juvenile
+cs_00_21	1	Hawaii	Lateral	75	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.851184518	1			17.2474	14.2671			juvenile
+cs_00_22	1	Hawaii	Lateral	81	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.196908355	0							juvenile
+cs_00_23	1	Hawaii	Lateral	74	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.89363191	1			143.7317	133.916	128.9233732	3789.813548	juvenile
+cs_00_24	1	Hawaii	Lateral	74	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.322325421	1			108.829	20.5447	111.0812116	3991.642532	juvenile
+cs_00_25	1	Hawaii	Caudal	146	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.979425328	1			108.829	72.5555	90.20354687	3038.152257	juvenile
+cs_00_26	1	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							7.25828684	1			64.8867	22.1062	110.1728663	3179.193305	juvenile
+cs_00_27	1	Hawaii	Lateral	107	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.041853513	0							juvenile
+cs_00_28	1	Hawaii	Caudal	151	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.06543495	1			87.7485	85.088	47.11183335	543.4200291	juvenile
+cs_00_30	1	Hawaii	Lateral	74	Sicyopterus_stimpsoni	inching	free	5	hakalau	2014							8.639399625	1			87.5769	18.0118	127.4016256	3323.253495	juvenile
+ss_2016_01_la	2	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.57	51.367	7.811	7.723	4.912	1.404	6.576238638	0							adult
+ss_2016_02_ca	2	Hawaii	Caudal	170.9984	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	0.88	38.872	5.94	6.095	3.609	0.821	6.544107744	1		39	79.6196	74.9285	37.96340531	-158.8481914	adult
+ss_2016_03_ca	2	Hawaii	Caudal	164.6794	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	4.03	64.948	9.794	9.647	7.038	2.37	6.631406984	1		23	69.3689	60.7913	153.7112435	2454.2147	adult
+ss_2016_04_cr	3	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	2.62	59.222	9.112	8.371	5.364	1.739	6.499341528	0							adult
+ss_2016_05_ca	3	Hawaii	Caudal	146.4679	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	0.75	40.221	5.438	5.351	3.245	1.053	7.396285399	1		49	86.1942	93.1704	65.57124807	683.1207632	adult
+ss_2016_06_ca	3	Hawaii	Caudal	155.5581	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	2.23	53.79	8.616	8.107	5.636	1.6	6.243036212	1		16	41.5338	11.9355	141.8237346	3281.141749	adult
+ss_2016_07_ca	3	Hawaii	Caudal	178.116	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.52	45.518	4.163	7.338	7.047	1.206	10.93394187	1		29	74.3935	73.5095	94.04016691	2025.164766	adult
+ss_2016_08_cr	2	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.85	48.986	8.404	8.388	4.945	1.385	5.828891004	0							adult
+ss_2016_09_ca	1	Hawaii	Caudal	170.4384	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	0.94	42.106	6.495	6.504	3.502	1.16	6.482832948	1		26	77.0243	71.2788	117.5893011	2098.731209	adult
+ss_2016_10_la	2	Hawaii	Cranial	47.4546	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	6.18	71.939	12.832	11.26	8.967	2.383	5.606218828	1		27	63.7889	63.232	91.59837694	1212.643472	adult
+ss_2016_11_cr	1	Hawaii	Cranial	0.4667	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	2.23	51.26	8.447	8.537	4.845	2.083	6.06842666	1		34	120.8266	115.9164			adult
+ss_2016_12_ca	1	Hawaii	Caudal		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	4.08	68.626	10.232	10.288	7.595	2.173	6.706997654	0							adult
+ss_2016_13_la	3	Hawaii	Lateral	96.9983	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.54	44.164	7.3	5.753	4.472	1.512	6.049863014	1		20	41.2186	12.1088	149.068865	2651.962267	adult
+ss_2016_14_cr	3	Hawaii	Cranial	1.2847	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.46	49.753	7.806	6.503	4.777	1.358	6.373686908	1		20	56.1171	39.4734	86.31060706	2065.605607	adult
+ss_2016_15_la	1	Hawaii	Lateral	107.3459	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.36	43.245	6.73	6.432	4.227	1.646	6.425705795	1		23	72.6737	71.6777	43.92528654	-83.12967599	adult
+ss_2016_16_la	3	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.71	46.736	7.651	7.382	4.719	1.413	6.108482551	0							adult
+ss_2016_17_la	2	Hawaii	Lateral	73.4017	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.87	54.556	7.96	7.389	5.521	1.581	6.853768844	1		23	68.8047	52.3526	96.94349903	1203.15297	adult
+ss_2016_18_cr	1	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	2.14	52.832	7.862	7.824	2.106	1.725	6.719918596	0							adult
+ss_2016_19_la	2	Hawaii	Lateral	119.2389	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.56	50.414	7.551	5.978	4.873	1.452	6.676466693	1		29	109.8035	107.9052	134.247624	1870.912403	adult
+ss_2016_20_cr	3	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.51	51.14	7.709	7.103	4.988	1.654	6.633804644	0							adult
+ss_2016_21_ca	1	Hawaii	Caudal	173.5662	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.94	53.248	7.957	7.672	5.665	1.537	6.691969335	1		29	70.7859	70.3347	81.09277627	1127.00996	adult
+ss_2016_22_la	3	Hawaii	Lateral	68.2389	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.42	47.301	6.433	6.471	4.481	1.628	7.352868024	1		42	158.8038	122.0322			adult
+ss_2016_23_cr	2	Hawaii	Cranial	2.7863	Sicyopterus_stimpsoni	inching	free	6	hakalau	2016	1.3	52.225	7.369	6.378	5.137	1.379	7.087121726	1		24	82.4923	64.1887	148.5390872	2783.30635	adult
+ss_2017_08_ca	2	Hawaii	Caudal	151.09	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.32	48.6	6.7	8	4.2	1.3	7.253731343	1	95	26	102.24		54.75917974	993.2617518	adult
+ss_2017_09_ca	3	Hawaii	Caudal		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.33	44.1	6.7	6.9	4.2	1.8	6.582089552	0							adult
+ss_2017_10_cr	1	Hawaii	Cranial	1.28	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.72	50.3	8	6.5	4.8	2.2	6.2875	1	101	23	99.99		56.20957733	972.4217407	adult
+ss_2017_11_cr	1	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.55	44.1	7	8	4.2	1.7	6.3	0							adult
+ss_2017_12_la	3	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	2.2	53.7	8.3	8.5	5.4	2.3	6.469879518	0							adult
+ss_2017_13_ca	1	Hawaii	Caudal	159.13	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	5.375	69.5	11.6	11.6	7	3.2	5.99137931	1	124	19	55.64	43.36	127.1093087	2267.709375	adult
+ss_2017_14_ca	2	Hawaii	Caudal	179.21	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	3.175	59.9	9.6	10.1	6	1.6	6.239583333	1	97	17	49.67	19.58	98.9375239	1300.903584	adult
+ss_2017_15_cr	3	Hawaii	Cranial	1.44	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.555	51.5	7.8	7.6	4.8	1.7	6.602564103	1	81	23	134.43		88.33840217	2825.349556	adult
+ss_2017_16_ca	3	Hawaii	Caudal		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.9	53.2	8	8.5	5.5	2	6.65	0							adult
+ss_2017_17_cr	1	Hawaii	Cranial	4.29	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.07	41.3	6.8	7.1	4.5	1.8	6.073529412	1	81	22	75.82	79.65	51.52587489	142.7540071	adult
+ss_2017_18_la	1	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.35	47.9	7.3	7	4.4	2.3	6.561643836	0							adult
+ss_2017_19_cr	2	Hawaii	Cranial	1.92	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	3.765	62.8	10.8	10.3	6.3	3	5.814814815	1	80	32	114.66	112.68	71.14872012	1100.245846	adult
+ss_2017_20_cr	2	Hawaii	Cranial	3.95	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	1.11	42	6.5	6.9	3.8	2	6.461538462	1	86	26	110.42	106.5	114.2066253	1877.376826	adult
+ss_2017_21_cr	1	Hawaii	Cranial	9.73	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	2.07	52.9	7.9	8	5	1.9	6.696202532	1	96	31	134.35	134.56	82.47130289	686.0545487	adult
+ss_2017_22_la	2	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	4.2	71.1	11	9.7	6.8	2.6	6.463636364	0							adult
+ss_2017_23_la	1	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	3.31	64.1	9.7	9	6.1	1.9	6.608247423	0							adult
+ss_2017_24_ca	3	Hawaii	Caudal	176.33	Sicyopterus_stimpsoni	inching	constant		nanue1	2017	2.025	61.7	8.1	7.5	4.8	2.1	7.617283951	1	86	22	90.65	94.95	94.23285759	1000.753029	adult
+ss_2017_25_la	2	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	2.075	53.3	8.2	8.6	5.2	1.9	6.5	0							adult
+ss_2017_26_ca	3	Hawaii	Caudal		Sicyopterus_stimpsoni	inching	constant		nanue1	2017	4.13	63.5	10.7	10.6	6.6	2.5	5.934579439	0							adult
+ss_2017_27_la	2	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	constant		nanue1	2017		62.3	9.9	10.3	6.5	2.4	6.292929293	0							adult
+ss_2017_01_ca	1	Hawaii	Caudal	172.12	Sicyopterus_stimpsoni	inching	free		nanue2	2017	2.93	61.1	10	8.9	6.3	2.2	6.11	1	102	16	38.8		72.34288831	1436.003432	adult
+ss_2017_02_ca	3	Hawaii	Caudal	162.79	Sicyopterus_stimpsoni	inching	free		nanue2	2017	2.88	56.4	8.8	9.5	6.1	3.3	6.409090909	1	102	16	52.66		67.70220007	1939.583025	adult
+ss_2017_03_ca	2	Hawaii	Caudal	174.97	Sicyopterus_stimpsoni	inching	free		nanue2	2017	1.47	44	6.5	7	4.3	1.5	6.769230769	1	77	14	30.92	32.86	103.367921	2328.206152	adult
+ss_2017_04_la	1	Hawaii	Lateral	63.92	Sicyopterus_stimpsoni	inching	free		nanue2	2017	2.295	58.7	8.4	9	5.7	3	6.988095238	1	62	29	93.51	93.51	106.5660266	1626.590552	adult
+ss_2017_05_cr	1	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free		nanue2	2017	3.66	60.5	9.3	10.9	6.3	2.8	6.505376344	0							adult
+ss_2017_06_la	2	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	free		nanue2	2017	3.98	64.6	10	9.5	7.1	2.5	6.46	0							adult
+ss_2017_07_la	1	Hawaii	Lateral		Sicyopterus_stimpsoni	inching	free		nanue2	2017	4.04	66.9	10.6	10.3	7.2	3.3	6.311320755	0							adult
+ss_2017_28_cr	2	Hawaii	Cranial	3.02	Sicyopterus_stimpsoni	inching	free		nanue2	2017	1.2	46.9	6.2	7.6	4.9	2	7.564516129	1	84	26	87.05	87.87	57.03509801	162.1337403	adult
+ss_2017_29_cr	2	Hawaii	Cranial		Sicyopterus_stimpsoni	inching	free		nanue2	2017	7.68	88.7	12.6	13.1	10.3	3.9	7.03968254	0							adult
+sh_2016_01_la	1	Hawaii	Lateral	92.5698	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.53	59.071	11.495	9.419	6.258	2.398	5.138842975	1		30	70.1489	125.7026	121.4625977	2286.700421	adult
+sh_2016_02_cr	1	Hawaii	Cranial	0.5707	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.96	61.889	12.388	11.607	6.419	2.534	4.995883113	1		19	125.7026	53.0428	64.99485615	1070.149815	adult
+sh_2016_03_ca	1	Hawaii	Caudal	166.2589	Stenogobius_hawaiiensis	none	constant		waikea	2016	4.16	67.297	10.975	11.542	6.093	2.57	6.131845103	1		19	45.6834	41.1566	127.2960421	2326.784544	adult
+sh_2016_04_cr	1	Hawaii	Cranial		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.86	64.724	12.31	10.278	6.188	2.393	5.257839155	1							adult
+sh_2016_05_la	1	Hawaii	Lateral	108.8536	Stenogobius_hawaiiensis	none	constant		waikea	2016	4.92	69.007	13.944	11.021	6.947	3.119	4.948866896	1		18	57.4824	54.7779	78.29190849	476.2903601	adult
+sh_2016_06_cr	1	Hawaii	Cranial	7.3148	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.53	48.482	9.635	9.167	4.716	1.66	5.031862999	1		30	85.2725	85.2725	75.34503298	1775.071106	adult
+sh_2016_07_cr	1	Hawaii	Cranial	10.2455	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.93	63.592	12.081	10.529	5.682	2.03	5.263802665	1		61	38.9648	17.5616	33.90521974	215.6876466	adult
+sh_2016_08_cr	1	Hawaii	Cranial	27.9814	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.02	56.125	11.37	10.74	5.522	2.759	4.936235708	1		46	66.1382	52.2159	55.22089247	553.314172	adult
+sh_2016_09_ca	1	Hawaii	Caudal	170.1932	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.84	58.162	11.236	10.267	5.648	1.417	5.176397294	1		19	62.6109	58.4398	76.03785748	895.1174263	adult
+sh_2016_10_ca	1	Hawaii	Caudal	170.7886	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.69	56.865	10.953	10.343	5.676	1.837	5.191728294	1		16	55.2089	51.3798	78.52599066	1225.123078	adult
+sh_2016_11_ca	1	Hawaii	Caudal		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.89	63.137	12.196	9.08	5.83	1.905	5.176861266	0							adult
+sh_2016_12_la	1	Hawaii	Lateral	109.8039	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.76	68.679	13.825	10.094	7.073	1.931	4.967739602	1		53	38.8198	25.5632	42.27561786	362.6733545	adult
+sh_2016_13_la	1	Hawaii	Lateral	106.3061	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.48	63.667	11.99	9.672	6.386	1.853	5.31000834	1		21	76.2812	81.1569	66.46255583	249.6080909	adult
+sh_2016_14_la	1	Hawaii	Lateral	115.5261	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.11	59.541	11.327	8.949	5.913	1.887	5.256555134	1		42	34.6801	26.5916	27.49825525	36.5172696	adult
+sh_2016_15_ca	1	Hawaii	Caudal		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.51	66.728	12.417	9.159	6.553	1.646	5.373922848	0							adult
+sh_2016_16_la	1	Hawaii	Caudal	136.7512	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.01	61.392	11.355	8.853	5.645	2.35	5.40660502	1		32	62.4991	61.6872	52.97030834	935.8430436	adult
+sh_2016_17_cr	1	Hawaii	Cranial		Stenogobius_hawaiiensis	none	constant		waikea	2016	3.78	65.023	13.223	9.818	6.802	2.399	4.917416623	0							adult
+sh_2016_18_cr	1	Hawaii	Cranial	1.6383	Stenogobius_hawaiiensis	none	constant		waikea	2016	5.56	69.532	13.543	12.103	7.159	2.158	5.134165251	1		28	74.694	75.6768	74.1796494	920.315711	adult
+sh_2016_19_la	1	Hawaii	Lateral	106.6612	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.37	61.598	11.793	8.381	5.858	1.575	5.22326804	1		43	44.0654	40.0395	35.62139632	157.3375642	adult
+sh_2016_20_ca	1	Hawaii	Caudal	164.586	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.3	63.645	12.88	9.898	6.338	1.386	4.941381988	1		31	69.0378	68.9857	62.93223915	450.9520536	adult
+sh_2016_21_la	1	Hawaii	Lateral	93.9737	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.08	55.593	10.344	7.674	5.439	1.171	5.374419954	1		22	50.777	25.9705	125.1526409	2259.928351	adult
+sh_2016_22_la	1	Hawaii	Lateral	71.8769	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.2	70.027	13.751	10.412	7.231	1.767	5.092502363	1		57	60.7264	45.777	52.44051238	-435.615736	adult
+sh_2016_23_cr	1	Hawaii	Cranial		Stenogobius_hawaiiensis	none	constant		waikea	2016	3.25	60.785	11.447	10.03	6.08	1.775	5.310124924	0							adult
+sh_2016_24_ca	1	Hawaii	Caudal	171.4698	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.59	54.139	10.078	8.512	5.234	1.575	5.371998412	1		14	43.6591	20.9377	126.6782915	2594.874731	adult
+sh_2016_25_cr	1	Hawaii	Cranial	6.2955	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.98	56.921	11.556	8.553	6.106	1.632	4.925666321	1		28	95.4845	98.6637	126.6304148	3379.864245	adult
+sh_2016_26_la	1	Hawaii	Lateral	106.4549	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.83	60.287	12.214	8.926	6.445	1.573	4.935893237	1		20	68.9737	49.9685	154.5780584	2635.901078	adult
+sh_2016_27_ca	1	Hawaii	Caudal	165.7265	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.65	54.34	10.671	7.058	5.656	1.425	5.092306251	1		13	39.888	15.4645	104.6723817	1316.870751	adult
+sh_2016_28_ca	1	Hawaii	Caudal	159.8408	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.64	50.266	9.383	6.802	4.859	1.584	5.357135245	1		20	49.0243	44.5412	60.60281391	289.7702282	adult
+sh_2016_29_ca	1	Hawaii	Caudal	164.1257	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.15	51.204	9.805	7.977	5.178	1.4	5.222233554	1		19	58.2152	46.4844	68.95714357	353.6896868	adult
+sh_2016_30_cr	1	Hawaii	Cranial		Stenogobius_hawaiiensis	none	constant		waikea	2016	4.42	69.103	13.404	10.269	6.801	2.008	5.155401373	0							adult
+sh_2016_31_ca	1	Hawaii	Caudal	163.7758	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.53	65.155	13.337	9.009	6.563	2.288	4.885281548	1		18	16.2274	1.0867	53.21745977	93.68359748	adult
+sh_2016_32_cr	1	Hawaii	Cranial	1.1611	Stenogobius_hawaiiensis	none	constant		waikea	2016	5.21	71.253	13.834	10.068	7.291	2.171	5.150571057	1		29	91.8283	91.9543	111.5933103	1023.993002	adult
+sh_2016_33_la	1	Hawaii	Lateral	110.0856	Stenogobius_hawaiiensis	none	constant		waikea	2016	5.48	69.436	13.329	9.523	6.94	2.342	5.209393053	1		16	31.8569	15.6495	80.77964333	620.514682	adult
+sh_2016_34_la	1	Hawaii	Lateral	95.4669	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.26	56.189	9.855	6.635	5.184	1.453	5.701572806	1		23	90.947	79.3004	121.0137349	1960.332881	adult
+sh_2016_35_cr	1	Hawaii	Cranial	1.0657	Stenogobius_hawaiiensis	none	constant		waikea	2016	4.2	67.484	13.504	10.244	6.729	2.314	4.997334123	1		22	57.4713	38.9165	142.6173903	2719.756751	adult
+sh_2016_36_ca	1	Hawaii	Caudal	168.3558	Stenogobius_hawaiiensis	none	constant		waikea	2016	2	56.282	10.181	7.139	5.455	1.392	5.528140654	1		21	54.5369	49.0704	58.47354161	-53.14894008	adult
+sh_2016_37_ca	1	Hawaii	Caudal	168.4202	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.14	44.706	8.16	5.643	4.377	1.127	5.478676471	1		21	0.6964	46.6502	140.0793014	2305.02649	adult
+sh_2016_38_cr	1	Hawaii	Cranial	0.3563	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.34	57	10.9	8.063	5.625	1.415	5.229357798	1		22	99.4395	79.6711	153.6405991	3372.435512	adult
+sh_2016_39_la	1	Hawaii	Lateral	89.2612	Stenogobius_hawaiiensis	none	constant		waikea	2016	4.43	63.747	12.878	10.552	6.699	2.084	4.950069887	1		18	46.604	24.402	136.242574	3087.603358	adult
+sh_2016_40_la	1	Hawaii	Lateral	92.7872	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.96	57.22	10.69	7.173	5.635	1.287	5.352666043	1		14	36.6465	7.8419	127.5848562	3376.1748	adult
+sh_2016_41_cr	1	Hawaii	Cranial	1.0034	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.79	48.786	9.552	7.373	4.581	1.959	5.10741206	1		19	93.9883	58.1597	129.3444461	2859.769917	adult
+sh_2016_42_ca	1	Hawaii	Caudal	174.8388	Stenogobius_hawaiiensis	none	constant		waikea	2016	7.83	83.831	16.354	11.485	8.982	3.289	5.126024214	1		30	79.1042	79.1042	106.9922468	1894.667749	adult
+sh_2016_43_la	1	Hawaii	Caudal	167.1734	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.3	68.339	12.783	8.405	6.783	1.82	5.346084644	1		12	32.5415	8.6688	104.5903408	953.6581007	adult
+sh_2016_44_la	1	Hawaii	Lateral		Stenogobius_hawaiiensis	none	constant		waikea	2016	3.06	63.843	11.98	9.522	6.283	1.621	5.329131886	0							adult
+sh_2016_45_cr	1	Hawaii	Cranial	3.259	Stenogobius_hawaiiensis	none	constant		waikea	2016	4.49	71.338	13.774	9.819	7.34	1.665	5.179178162	1		23	86.2544	78.223	110.7681042	1200.45313	adult
+sh_2016_46_la	1	Hawaii	Lateral		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.75	59.759	10.848	7.928	5.79	1.873	5.508757375	0							adult
+sh_2016_47_ca	1	Hawaii	Caudal	159.3984	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.77	57.113	10.508	8.173	5.584	1.636	5.435192234	1		22	77.0384	61.1553	115.9193268	2005.091749	adult
+sh_2016_48_la	1	Hawaii	Lateral		Stenogobius_hawaiiensis	none	constant		waikea	2016	4.85	74.976	14.49	11.723	7.774	2.565	5.174327122	0							adult
+sh_2016_49_ca	1	Hawaii	Caudal		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.37	55.378	10.39	7.322	5.524	1.4	5.329932628	0							adult
+sh_2016_50_ca	1	Hawaii	Caudal	175.0053	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.14	59.554	11.221	9.528	5.917	1.764	5.30737011	1		30	84.4992	84.4992	80.20540117	528.1749998	adult
+sh_2016_51_cr	1	Hawaii	Cranial	8.527	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.3	60.82	11.251	8.173	5.387	1.467	5.405741712	1		44	90.5564	90.1806	62.48213594	479.6939208	adult
+sh_2016_52_la	1	Hawaii	Lateral		Stenogobius_hawaiiensis	none	constant		waikea	2016	3.63	66.975	13.279	8.254	6.813	1.358	5.043677988	0							adult
+sh_2016_53_cr	1	Hawaii	Cranial	0.1915	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.21	64.203	12.454	8.042	5.841	1.429	5.155211177	1		35	128.0741	123.5869	102.2144822	1994.56085	adult
+sh_2016_54_cr	1	Hawaii	Cranial	2.7912	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.65	59.32	11.489	8.534	5.615	1.306	5.163199582	1		23	61.5145	47.6724	131.0697031	1987.531389	adult
+sh_2016_55_ca	1	Hawaii	Caudal	176.6476	Stenogobius_hawaiiensis	none	constant		waikea	2016	5.55	73.667	14.065	10.834	7.284	2.375	5.237611091	1		25	81.2519	88.4856	110.5715891	2120.882576	adult
+sh_2016_56_la	1	Hawaii	Lateral	60.8709	Stenogobius_hawaiiensis	none	constant		waikea	2016	3.88	67.784	13.166	9.613	7.042	1.902	5.148412578	1		19	52.4609	26.2074			adult
+sh_2016_58_cr	1	Hawaii	Cranial	8.2606	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.85	56.644	11.133	8.501	5.606	1.401	5.087936765	1		20	36.1925				adult
+sh_2016_59_ca	1	Hawaii	Caudal	155.2289	Stenogobius_hawaiiensis	none	constant		waikea	2016	2.2	56.17	10.787	6.728	5.465	1.411	5.207193844	1		18	43.6987	33.1019	89.75295569	934.9368607	adult
+sh_2016_60_cr	1	Hawaii	Cranial	6.205	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.27	47.854	9.033	5.559	4.32	1.227	5.297686261	1		36	119.2076	120.5246	92.70847378	948.7477965	adult
+sh_2016_61_ca	1	Hawaii	Caudal		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.21	55.448	10.304	7.876	5.212	1.685	5.38121118	0							adult
+sh_2016_62_la	1	Hawaii	Lateral	95.8899	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.68	47.188	8.14	6.276	4.433	1.758	5.797051597	1		13	30.2596	19.1001	115.5380904	2037.16585	adult
+sh_2016_63_cr	1	Hawaii	Cranial		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.95	53.594	9.721	8.067	5.348	1.428	5.513218805	0							adult
+sh_2016_64_cr	1	Hawaii	Cranial	6.3947	Stenogobius_hawaiiensis	none	constant		waikea	2016	1.25	43.454	7.904	6.052	4.013	1.194	5.497722672	1		29	75.4963	75.9132	71.83755865	1263.829917	adult
+sh_2016_65_la	1	Hawaii	Lateral		Stenogobius_hawaiiensis	none	constant		waikea	2016	2.52	54.682	10.688	7.329	5.363	1.681	5.11620509	0							adult

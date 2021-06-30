@@ -1,0 +1,468 @@
+---
+title: "goby_escapevclimb"
+author: "Kelly Diamond"
+date: "6/2/2021"
+output: word_document
+---
+
+#Load libraries
+```{r load libraries}
+library(data.table)
+library(ggplot2)
+library(emmeans) 
+library(lme4)
+library(lmerTest)
+library(harrellplot)
+library(dplyr)
+library(geomorph)
+library(RRPP)
+```
+
+#Create working data.table for escape resposne data
+```{r Create working data.table}
+fn <- 'escapeData.txt'
+file_path <- paste(fn, sep='')
+goby <- fread(file_path)
+
+#correct labeling issues for different attack directions
+ord <- c('Cranial', 'Lateral', 'Caudal')
+goby[, attack_direction:=ifelse(attack_direction=="lateral", "Lateral", attack_direction)]
+goby[, attack_direction:=factor(attack_direction, ord)]
+
+#remove juvenile data
+goby <- goby[goby$Age!="juvenile", ]
+
+#create species by location column
+goby[, Ind:=substr(id, 1,10)]
+goby[, Spec_by_loc:=paste0(species, location)]
+goby[, Spec_by_reg:=paste0(species, regime)]
+goby[, .(N=.N), by=Ind]
+goby[, .(N=.N), by=Spec_by_loc]
+goby[, .(N=.N), by=Spec_by_reg]
+pred_col <- goby[, .(N=.N), by=.(Spec_by_loc, regime, species)]
+
+# change na. action 
+make_na_fail <- TRUE
+if(make_na_fail==TRUE){
+  options(na.action = "na.fail") 
+}
+```
+
+## Response Frequency
+modified from https://github.com/middleprofessor/harrellplot/blob/master/R/fit_model.R
+```{r}
+#models
+fit_resp = glmer(response~climbing_style + attack_direction + (1|species) + (1|location), family="binomial", goby) #full model
+fit_resp_attack_only = glmer(response~attack_direction + (1|species) + (1|location), family="binomial", goby) #null for climbing 
+fit_resp_climb_only = glmer(response~climbing_style + (1|species) + (1|location), family="binomial", goby) #null for attack
+summary(fit_resp)
+#X2/p for overall patterns
+anova(fit_resp_attack_only,fit_resp)
+anova(fit_resp_climb_only,fit_resp)
+
+#create data table of emms
+emm.fit_resp <- emmeans(fit_resp, specs=c("climbing_style", "attack_direction"), type="response") 
+emm.fit_resp.dt <- data.table(summary(emm.fit_resp))
+
+#compute table of contrasts
+emm.resp.climb <- emmeans(fit_resp, specs="climbing_style", type="response") 
+emm.resp.attack <- emmeans(fit_resp, specs="attack_direction", type="response") 
+
+ci_diffs.climb <- summary(contrast(
+          emm.resp.climb,
+          method="pairwise",
+          adjust = 'none',
+          level=0.95), 
+          infer=c(TRUE,TRUE))
+ci_diffs.climb.rev <- summary(contrast(
+          emm.resp.climb,
+          method="revpairwise",
+          adjust = 'none',
+          level=0.95), 
+          infer=c(TRUE,TRUE))
+ci_diffs.attack <- summary(contrast(
+          emm.resp.attack,
+          method="pairwise",
+          adjust = 'none',
+          level=0.095), 
+          infer=c(TRUE,TRUE))
+ci_diffs.attack.rev <- summary(contrast(
+          emm.resp.attack,
+          method="revpairwise",
+          adjust = 'none',
+          level=0.095), 
+          infer=c(TRUE,TRUE))
+ci_diffs <- rbind(ci_diffs.climb, ci_diffs.climb.rev, ci_diffs.attack, ci_diffs.attack.rev)
+ci_diffs = data.table(ci_diffs)
+ci_diffs_resp= ci_diffs[c(3,4,2,7,8,12),]
+
+#my version of the harrell plot
+pd <- position_dodge(0.75)
+gg_contrasts = ggplot(data=ci_diffs_resp, aes(x=contrast, y=odds.ratio)) +
+  geom_hline(yintercept = 1, linetype="dotted", size=1) +
+  geom_linerange(aes(ymin = asymp.LCL, ymax = asymp.UCL), color='black', size=1) +
+  geom_point(size=3, color='white') +
+  geom_point(size=2, color='black') +
+  ylab('Ratio') +
+  scale_x_discrete("Contrast", breaks = c("none / powerburst","none / inching", "inching / powerburst","Cranial / Lateral", "Cranial / Caudal", "Caudal / Lateral"), labels=c("NC/PB", "NC/IN", "IN/PB", "Cranial/Lateral", "Cranial/Caudal", "Caudal/Lateral")) +
+  theme_minimal() + 
+  ggpubr::theme_pubclean() + 
+  theme(plot.margin = margin(0, 0, 0, 0, "cm"), legend.position = 'bottom') +
+  coord_flip()
+gg_contrasts
+
+gg_treatments <- ggplot(data=emm.fit_resp.dt, aes(x=climbing_style, y=prob)) +
+  geom_errorbar(aes(min=asymp.LCL, max=asymp.UCL, color=attack_direction), 
+                 position=pd, width=0.0, size=1.5) +
+  geom_point(position=pd, aes(shape=attack_direction), size=5, color='white') +
+  geom_point(position=pd, aes(shape=attack_direction), size=3, color='black') +
+  ggsci::scale_color_jama(name = "Attack Direction") +
+  ggsci::scale_fill_jama() +
+  scale_shape(name = "Attack Direction") +
+  theme_minimal() +
+  scale_y_continuous(name='Response Frequency', labels=scales::percent) +
+  scale_x_discrete("Climbing Style", limits = c('inching', 'powerburst', 'none'),
+                    labels=c("IN","PB", "NC")) +
+  ggpubr::theme_pubclean() +
+  theme(plot.margin = margin(0, 0, 0, 0, "cm"), legend.position = 'bottom') +
+  coord_flip()
+gg_treatments
+
+gg <- cowplot::plot_grid(gg_contrasts, gg_treatments, nrow=2, align = "v")
+gg
+```
+
+## Performance measures
+The following chunk was used to analyze performance measures. For anaylysis of peak velocity and peak acceleration replace 'Escape_Angle_S1' with 'max_vel' or 'max_accel' and change graph labels as appropriate. 
+```{r}
+#models
+fit = lmer(Escape_Angle_S1~climbing_style + attack_direction + (1|species) + (1|location), goby, na.action=na.omit) #full model
+fit_attack_only = lmer(Escape_Angle_S1~attack_direction + (1|species) + (1|location), goby, na.action=na.omit) #null for climbing 
+fit_climb_only = lmer(Escape_Angle_S1~climbing_style + (1|species) + (1|location), goby, na.action=na.omit) #null for attack
+
+summary(fit)
+
+#X2/p for overall patterns
+anova(fit_attack_only,fit)
+anova(fit_climb_only,fit)
+
+#create data table of emms
+emm.fit <- emmeans(fit, specs=c("climbing_style", "attack_direction"), type="response") 
+emm.fit.dt <- data.table(summary(emm.fit))
+
+#compute table of contrasts 
+emm.climb <- emmeans(fit, specs="climbing_style", type="response") 
+emm.attack <- emmeans(fit, specs="attack_direction", type="response") 
+
+ci_diffs.climb <- summary(contrast(
+          emm.climb,
+          method="pairwise",
+          adjust = 'none',
+          level=0.95), 
+          infer=c(TRUE,TRUE))
+ci_diffs.climb.rev <- summary(contrast(
+          emm.climb,
+          method="revpairwise",
+          adjust = 'none',
+          level=0.95), 
+          infer=c(TRUE,TRUE))
+ci_diffs.attack <- summary(contrast(
+          emm.attack,
+          method="pairwise",
+          adjust = 'none',
+          level=0.095), 
+          infer=c(TRUE,TRUE))
+ci_diffs.attack.rev <- summary(contrast(
+          emm.attack,
+          method="revpairwise",
+          adjust = 'none',
+          level=0.095), 
+          infer=c(TRUE,TRUE))
+ci_diffs <- rbind(ci_diffs.climb, ci_diffs.climb.rev, ci_diffs.attack, ci_diffs.attack.rev)
+ci_diffs = data.table(ci_diffs)
+ci_diffs= ci_diffs[c(3,4,2,7,8,12),]
+
+#my version of the harrell plot
+pd <- position_dodge(0.75)
+gg_contrasts = ggplot(data=ci_diffs, aes(x=contrast, y=estimate)) +
+  geom_linerange(aes(ymin = lower.CL, ymax = upper.CL), color='black', size=1) +
+  geom_hline(yintercept = 1, linetype="dotted", size=1) +
+  geom_point(size=3, color='white') +
+  geom_point(size=2, color='black') +
+  ylab('Effect') +
+  scale_x_discrete("Contrast", breaks = c("none - powerburst","none - inching", "inching - powerburst","Cranial - Lateral", "Cranial - Caudal", "Caudal - Lateral"), labels=c("NC-PB", "NC-IN", "IN-PB", "Cranial-Lateral", "Cranial-Caudal", "Caudal-Lateral")) +
+  theme_minimal() + 
+  ggpubr::theme_pubclean() + 
+  theme(plot.margin = margin(0, 0, 0, 0, "cm"), legend.position = 'bottom') +
+  coord_flip()
+gg_contrasts
+
+gg_treatments <- ggplot(data=emm.fit.dt, aes(x=climbing_style, y=emmean)) +
+  geom_errorbar(aes(min=lower.CL, max=upper.CL, color=attack_direction), 
+                 position=pd, width=0.0, size=1.5) +
+  geom_point(position=pd, aes(shape=attack_direction), size=5, color='white') +
+  geom_point(position=pd, aes(shape=attack_direction), size=3, color='black') +
+  ggsci::scale_color_jama(name = "Attack Direction") +
+  ggsci::scale_fill_jama() +
+  scale_shape(name = "Attack Direction") +
+  theme_minimal() +
+  scale_y_continuous(name='Escape Angle (degrees)') +
+  scale_x_discrete("Climbing Style", limits = c('inching', 'powerburst', 'none'),
+                    labels=c("IN","PB", "NC")) +
+  ggpubr::theme_pubclean() +
+  theme(plot.margin = margin(0, 0, 0, 0, "cm"), legend.position = 'bottom') +
+  coord_flip()
+gg_treatments
+
+gg <- cowplot::plot_grid(gg_contrasts, gg_treatments, nrow=2, align = "v")
+gg
+```
+
+## Differences among Ss and As localities
+```{r localities}
+# S. stimpsoni
+stimpsoni = goby[goby$species == "Sicyopterus_stimpsoni",]
+
+# Ss.response
+summary(aov(response~location, data=stimpsoni))
+ss.response = glm(response~location, family="binomial", stimpsoni)
+summary(ss.response)
+emm.ss.resp <- emmeans(ss.response, specs="location", type="response") 
+emm.ss.resp.dt <- data.table(summary(emm.ss.resp))
+
+pd <- position_dodge(0.6)
+gg <- ggplot(data=emm.ss.resp.dt, aes(x=location, y=prob)) +
+  geom_point(position=pd, aes(color=location), size=7) +
+  geom_errorbar(aes(min=asymp.LCL, max=asymp.UCL, color=location), 
+                position=pd, width=0.3, size=2) +
+  scale_y_continuous(name='Response Frequency', labels=scales::percent) +
+  scale_x_discrete("Location", limits = c('nanue1','hakalau','nanue2'), labels=c("BW","AW1", "AW2"))  +
+  ggsci::scale_color_jama(name = "Location", breaks=c('nanue1', 'hakalau', 'nanue2'), labels = c('BW = Below Waterfall', 'AW1 = Above Waterfall 1', 'AW2 = Above Waterfall 2')) +
+  theme_minimal()+
+  theme(axis.text.x=element_text(hjust = 1), plot.margin = margin(0, 0, 0, 1, "cm")) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+        plot.margin = margin(0.1, 0.1, 0.1, 0.1, "cm"),
+        text=element_text(size=20),legend.position=c('none'), legend.text.align = 0, 
+        strip.background = element_rect(color = "#cccccc", fill="#cccccc")) +
+  theme(axis.line.x = element_line(color="black", size = 1),
+        axis.line.y = element_line(color="black", size = 1))+
+  NULL
+gg
+
+ggsave("ss_response_locality_nopseudo.png", width = 8, height = 8)
+
+#ss.escape angle
+summary(aov(Escape_Angle_S1~location, data=stimpsoni, na.action=na.omit))
+#ss.velocity
+summary(aov(max_vel~location, data=stimpsoni, na.action=na.omit))
+#ss.accel
+summary(aov(max_accel~location, data=stimpsoni, na.action=na.omit))
+
+# Awaous
+awaous = goby[goby$species == "Awaous_stamineus",]
+
+#as.response
+summary(aov(response~location, data=awaous))
+as.response = glm(response~location, family="binomial", awaous)
+emm.as.resp <- emmeans(as.response, specs="location", type="response") 
+emm.as.resp.dt <- data.table(summary(emm.as.resp))
+
+pd <- position_dodge(0.6)
+gg <- ggplot(data=emm.as.resp.dt, aes(x=location, y=prob)) +
+  geom_point(position=pd, aes(color=location), size=7) +
+  geom_errorbar(aes(min=asymp.LCL, max=asymp.UCL, color=location), 
+                position=pd, width=0.3, size=2) +
+  scale_y_continuous(name='Response Frequency', labels=scales::percent) +
+  scale_x_discrete("Location", limits = c('waikea', 'hakalau'), labels=c("BW","AW"))  +
+  #scale_color_manual(values = c(orange, purple), name=NULL, breaks=c('waikea', 'hakalau'), labels = c('BW = Below Waterfall', 'AW = Above Waterfall')) +
+  ggsci::scale_color_jama() +
+  theme_minimal()+
+  theme(axis.text.x=element_text(hjust = 1), plot.margin = margin(0, 0, 0, 1, "cm")) +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+        plot.margin = margin(0.1, 0.1, 0.1, 0.1, "cm"),
+        text=element_text(size=20),legend.position=c('none'), legend.text.align = 0, 
+        strip.background = element_rect(color = "#cccccc", fill="#cccccc")) +
+  theme(axis.line.x = element_line(color="black", size = 1),
+        axis.line.y = element_line(color="black", size = 1))+
+  NULL
+gg
+
+#as.escape angle
+summary(aov(Escape_Angle_S1~location, data=awaous, na.action=na.omit))
+#as.velocity
+summary(aov(max_vel~location, data=awaous, na.action=na.omit))
+#as.accel
+summary(aov(max_accel~location, data=awaous, na.action=na.omit))
+
+```
+
+## GM analysis
+# Setup
+```{r libraries}
+library(ape)
+library(MASS)
+library(shapes)
+library(rgl)
+library(geomorph)
+library(RRPP)
+library(scatterplot3d)
+library(vegan)
+library(ggplot2)
+library(Hmisc)
+library(lme4)
+```
+
+# Running size corrected gpa for body shape landmarks
+```{r}
+#upload landmark data and save as array for gpagen fxn
+LMdata<-read.csv('lm_data.csv', header = TRUE)
+TPS = as.matrix(LMdata[,2:25]) 
+TPS = arrayspecs(TPS, 12, 2) 
+
+#procrustes superimposition
+y.gpaTPS = gpagen(TPS, PrinAxes = TRUE, max.iter = NULL, ProcD = TRUE, Proj = TRUE)
+plot(y.gpaTPS)
+
+#size correction
+size<-read.csv("sizes.csv")
+GDF <- geomorph.data.frame(shape = y.gpaTPS$coords, CS = size$SL, logCS = log(size$SL))
+sizecorrection =procD.lm(shape ~ CS, f2 = NULL, f3=NULL, 
+logsz = TRUE, data=GDF, iter=149, print.progress = FALSE)
+plot(sizecorrection, method="PredLine")   
+
+#procrustes impostion for size corrected data
+morph<-procD.lm(shape ~ CS, data=GDF,iter=1000, RRPP = TRUE)
+summary(morph)#gives the p value associated with size in this data set
+shape.resid<-arrayspecs(morph$residuals,p=dim(y.gpaTPS$coords)[1],k=dim(y.gpaTPS$coords)[2])
+adj.shape<-shape.resid+array(y.gpaTPS$consensus,dim(shape.resid))
+
+#adding groups to dataset
+gp <- interaction(LMdata$species)
+col.gp <- c('#374E55FF', '#DF8F44FF', '00A1D5F')
+names(col.gp) <- levels(gp)
+col.gp <- col.gp[match(gp, names(col.gp))] # col.gp must NOT be a factor
+
+#finally, we get what we want: the allometry free data (PC1 vs PC2)
+corrected.pca_L<-plotTangentSpace(adj.shape, groups= col.gp, axis1=1, axis2=2, label=T, legend = FALSE) #flip axes to get pics for figures for ms then pull out in ps
+corrected.pca<-plotTangentSpace(adj.shape, groups= col.gp, axis1=1, axis2=2) 
+corrected.pca$pc.summary #PCs with % explained
+
+#export points
+corrected.pca$pc.shapes
+corrected.pca$rotation
+
+```
+
+#stats on PC scores
+```{r PC stats}
+#upload pc scores with lables for species/ location/ predator regime
+goby_pcs <- read.csv("pc_scores_labeled.csv", header = TRUE)
+
+#Does PC1 differ by climbing sytle
+fit.pc1 <- lmer(PC1 ~ climbing_style + (1|species) + (1|location), data = goby_pcs)
+summary(fit.pc1)
+summary(aov(PC1 ~ climbing_style, data = goby_pcs))
+
+#Does PC2 differ by climbing style
+fit.pc2 <- lmer(PC2 ~ climbing_style + (1|species) + (1|location), data = goby_pcs)
+summary(fit.pc2)
+summary(aov(PC2 ~ climbing_style, data = goby_pcs))
+
+#Does PC3 differ by climbing style
+fit.pc3 <- lmer(PC3 ~ climbing_style + (1|species) + (1|location), data = goby_pcs)
+summary(fit.pc3)
+summary(aov(PC3 ~ climbing_style, data = goby_pcs))
+
+#Does PC4 differ by climbing style
+fit.pc4 <- lmer(PC4 ~ climbing_style + (1|species) + (1|location), data = goby_pcs)
+summary(fit.pc4)
+
+```
+
+#Tukey for climbing style (for supplemental only)
+```{r}
+tpc1 <- aov(PC1~ climbing_style, goby_pcs)
+TukeyHSD(tpc1, "climbing_style")
+summary(tpc1)
+
+tpc2 <- aov(PC2~ climbing_style, goby_pcs)
+TukeyHSD(tpc2, "climbing_style")
+summary(tpc2)
+
+tpc3 <- aov(PC3~ climbing_style, goby_pcs)
+TukeyHSD(tpc3, "climbing_style")
+summary(tpc3)
+
+```
+
+#pretty plots
+```{r pretty plots}
+#make new df with pcscores
+goby_pcs <- read.csv("pc_scores_labeled.csv", header = TRUE)
+
+# +/_ axis warps
+pdf("pc1v2warps.pdf")
+corrected.pca<-plotTangentSpace(adj.shape, groups= col.gp, axis1=1, axis2=2) 
+dev.off()
+
+pdf("pc2v1warps.pdf")
+corrected.pca<-plotTangentSpace(adj.shape, groups= col.gp, axis1=2, axis2=1) 
+dev.off()
+
+pdf("pc3v1warps.pdf")
+corrected.pca<-plotTangentSpace(adj.shape, groups= col.gp, axis1=3, axis2=1) 
+dev.off()
+
+#color scheme
+orange <- rgb(230, 97, 1, max = 255) #inching
+purple <- rgb(94, 60, 153, max = 255) #none
+grey <- rgb(150, 150, 150, max = 255) #powerburst
+c_sch <- c(orange, grey, purple)
+
+#PC1 vs PC2
+pd <- 0.5
+gg <- ggplot(data=goby_pcs, aes(x=PC1, y=PC2, color=climbing_style)) +
+  geom_point(size=5) +
+  xlab("PC1 (48.2%)")+
+  ylab("PC2 (14.0%)")+
+  theme_minimal() +
+  scale_color_manual(values = c_sch, name=NULL, breaks=c('none', 'powerburst', 'inching'), 
+                     labels = c('Non-climbing', 'Powerburst', 'Inching')) +
+  theme(axis.text.x=element_text(hjust = 1),
+        plot.margin = margin(0, 0, 0, 1, "cm")) +
+        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+        panel.background = element_blank(),
+        panel.spacing = unit(2, "lines"),
+        plot.margin = margin(0.1, 0.1, 0.1, 0.1, "cm"), text=element_text(size=20),legend.position=c('top'), legend.text.align = 0, 
+        strip.background = element_rect(color = "#cccccc", fill="#cccccc")) +
+  theme(axis.line.x = element_line(color="black", size = 1),
+        axis.line.y = element_line(color="black", size = 1))+
+  NULL
+gg
+
+
+#PC1 vs PC3
+pd <- 0.5
+gg <- ggplot(data=goby_pcs, aes(x=PC1, y=PC3, color = climbing_style, shape = species)) +
+  geom_point(size=5) +
+  xlab("PC1 (48.2%)")+
+  ylab("PC3 (13.0%)")+
+  theme_minimal() +
+  scale_color_manual(values = c_sch, name="Climbing Style", breaks=c('none', 'powerburst', 'inching'), 
+                     labels = c('Non-climbing', 'Powerburst', 'Inching')) +
+  scale_shape_manual(values = c(19,17,15,6,7,8), name='Species', breaks=c("Stenogobius hawaiiensis","Cotylopus acutipinnis", "Lentipes concolor", "Awaous stamineus", "Sicyopterus lagocephalus", "Sicyopterus stimpsoni"), labels=expression(paste(italic("S. hawaiiensis")), paste(italic("C. acutipinnis")), paste(italic("L. concolor")), paste(italic("A. stamineus")), paste(italic("S. lagocephalus")), paste(italic("S. stimpsoni")))) +
+  theme(axis.text.x=element_text(hjust = 1),
+        plot.margin = margin(0, 0, 0, 1, "cm")) +
+        theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+        panel.background = element_blank(),
+        panel.spacing = unit(2, "lines"),
+        plot.margin = margin(0.1, 0.1, 0.1, 0.1, "cm"), text=element_text(size=20),legend.position=c('right'), legend.text.align = 0, 
+        strip.background = element_rect(color = "#cccccc", fill="#cccccc")) +
+  theme(axis.line.x = element_line(color="black", size = 1),
+        axis.line.y = element_line(color="black", size = 1))+
+  NULL
+gg
+
+```
+
+
